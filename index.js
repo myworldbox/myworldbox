@@ -5,6 +5,8 @@ window.onload = function () {
     music.src = "raw/music"+random+".mp3";
     music.play();
 
+    document.getElementById('word').innerHTML = 'VL presents';
+
     $(".menu")
         .animate({ right: 0 }, 5000)
         .slideToggle(500)
@@ -14,7 +16,7 @@ window.onload = function () {
                 border: "0.1vw dashed yellow"
             })
             $(this).dequeue()
-            $("a.word").html("&#9776;")
+            $("#word").html("&#9776;")
             $(".menu").slideToggle(500)
         })
 
