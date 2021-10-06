@@ -1,9 +1,12 @@
-window.onload = function () {
-    random = Math.floor(Math.random() * 9) + 1;
-    music = document.getElementById("music")
+declare var $:any;
 
-    music.src = "raw/music"+random+".mp3";
-    music.play();
+window.onload = function () {
+
+    var random = Math.floor(Math.random() * 9) + 1;
+    var music = document.getElementById("music");
+
+    (<HTMLImageElement>music).src = "raw/music" + random + ".mp3";
+    (<HTMLVideoElement>music).play();
 
     document.getElementById('word').innerHTML = 'VL presents';
 
@@ -14,7 +17,7 @@ window.onload = function () {
             $(this).css({
                 background: "rgba(0, 0, 0, 0.5)",
                 border: "0.1vw dashed yellow"
-            })
+            });
             $(this).dequeue()
             $("#word").html("&#9776;")
             $(".menu").slideToggle(500)
