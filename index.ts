@@ -1,4 +1,4 @@
-declare var $:any;
+declare var $: any;
 
 window.onload = function () {
 
