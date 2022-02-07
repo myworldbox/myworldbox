@@ -12,6 +12,7 @@ gtag("js", new Date());
 gtag("config", "UA-134209702-3");
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="index.js" defer></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -84,7 +85,7 @@ please don't be too harsh on me.
 <div class="banner" id="image_2"></div>
 <p class="titles" id="Works">Works</p>
 
-<div class="animation_2"">
+<div class="bg-1">
 <p class=" contents">...
 
 
@@ -100,47 +101,21 @@ Belows are some of my works.
 
 
 
-<a href="http://uniletsbefd.github.io/" target="_blank">UniLetsBeFd</a>
-This joint-school assoication is created,
-to let university students to meet,
-during the pandemic.
-
-
-
-<a href="https://myworldbox.wordpress.com/" target="_blank">myworldbox</a>
-This blog contains all my techincal,
-and youtube sharings.
-
-
-
-<a href="https://myworldbox.weebly.com/" target="_blank">myworldbox</a>
-This wesbite was about Twilight Wars.
-
-
-
-<a href="https://play.google.com/store/apps/details?id=com.myworldbox.XInARow" target="_blank">XInARow</a>
-To learn android app development,
-I made this game.
-
-
-<a href="https://myworldbox.github.io/pong/" target="_blank">pong</a>
-To learn game making,
-I made this game.
-
-
-
-<a href="https://myworldbox.github.io/snake/" target="_blank">snake</a>
-To learn more about JavaScript,
-I made this game.
-
-
-
-<a href="https://myworldbox.github.io/firechat/" target="_blank">firechat</a>
-To learn more about Firebase,
-I made this chatroom.
-
-
-
+<div class="sort-main">
+<div class="sort-func animation_2">
+    <div class="search-wrapper">
+      <label for="search">Search</label>
+      <input type="search" id="search" data-search>
+    </div>
+    <div class="user-cards" data-user-cards-container></div>
+    <template data-user-template>
+      <div class="card">
+        <div class="header" data-header></div>
+        <div class="body" data-body></div>
+      </div>
+    </template>
+</div>
+</div>
 
 
 
@@ -256,6 +231,7 @@ Copyright&copy; 2020. VL Blockchain.
 </div>
 
 <script type="text/typescript" src="index.ts"></script>
+<script type="text/typescript" src="index.js"></script>
 <script type="text/javascript" src="../js/typescript.min.js"></script>
 <script type="text/javascript" src="../js/typescript.compile.min.js"></script>
 
