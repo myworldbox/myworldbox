@@ -165,7 +165,8 @@ svg {
 }
 
 input {
-  font-size: 1rem;
+  font-size: 0.1rem;
+  border-radius: 1em;
 }
 
 .user-cards {
@@ -195,8 +196,8 @@ input {
 }
 
 .sort-func {
-  border-style: solid;
-  padding: 0.5em;
+  padding: 1em;
+  border-radius: 1em;
   background: white;
   width: 50vw;
   word-wrap: break-word;
