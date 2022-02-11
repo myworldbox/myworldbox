@@ -5,7 +5,7 @@ window.onload = function () {
     var random = Math.floor(Math.random() * 9) + 1;
     var music = document.getElementById("music");
 
-    (<HTMLImageElement>music).src = "raw/music" + random + ".mp3";
+    (<HTMLImageElement>music).src = "https://myworldbox.github.io/resources/musics/music" + random + ".mp3";
     (<HTMLVideoElement>music).play();
 
     document.getElementById('word').innerHTML = 'VL presents';

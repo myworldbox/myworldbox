@@ -14,6 +14,12 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  --resURL1: url("https://myworldbox.github.io/resources/images/logo_transparent.png");
+  --resURL2: url("https://myworldbox.github.io/resources/images/Backgroundresized.png");
+  --resURL3: url("https://myworldbox.github.io/resources/images/VLascii2.gif");
+}
+
 p {
   white-space: pre;
 }
@@ -27,22 +33,18 @@ p {
 #logo {
   min-width: 20vh;
   min-height: 20vh;
-  background: url(images/logo_transparent.png) center/cover scroll no-repeat;
+  background: var(--resURL1) center/cover scroll no-repeat;
 }
 
 #Home,
 #image_4 {
   font-size: 5vh;
-  background: url(images/Backgroundresized.png) center/cover scroll repeat-x;
+  background: var(--resURL2) center/cover scroll repeat-x;
   animation: animation_3 60s linear infinite alternate;
 }
 
-#image_2 {
-  background: url(images/VLascii2.gif) center/cover scroll no-repeat;
-}
-
-#image_3 {
-  background: url(images/VLascii2.gif) center/cover scroll no-repeat;
+#image_2, #image_3{
+  background: var(--resURL3) center/cover scroll no-repeat;
 }
 
 .menu {
@@ -114,7 +116,6 @@ svg {
   animation-duration: 10s;
   animation-direction: alternate;
 }
-
 
 .bg-1 {
   padding: 1vh;
@@ -217,6 +218,6 @@ input {
 
 @media screen and (max-width: 600px) {
   .sort-main {
-  height: 150vh;
+    height: 150vh;
   }
 }
