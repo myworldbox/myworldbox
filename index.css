@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  font-family: "Merienda", cursive;
+  word-wrap: break-word;
+}
+
+:root {
+  --resURL: url("https://myworldbox.github.io/resources/images/VLascii2.gif");
+}
+
+html {
+  overflow: auto;
+  text-align: center;
+}
+
+.link {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.main-div-1 {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Long Cang", cursive;
+  color: antiquewhite;
+}
+
+.bg {
+  background: var(--resURL);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-size: auto 100vh;*/
+}
+
+.absolute-style {
+  position: absolute;
+  width: fit-content;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  white-space: pre;
+}
+
+.header-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+a.company {
+  width: 150px;
+  background-color: rgb(97, 26, 48);
+  color: white;
+  top: 0;
+  left: 0;
+}
+
+.header-div a {
+  font-size: 14px !important;
+  float: left;
+  display: block;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+a.icon {
+  display: none;
+}
+
+.header-div a:hover {
+  background-color: palegoldenrod;
+  color: darkred;
+}
+
+.main-div-2,
+.main-div-3 {
+  background: rgb(40, 45, 95);
+  display: flex;
+  padding: 200px 0 200px 0;
+  flex-direction: column;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.footer-div {
+  background: linear-gradient(
+    190deg,
+    darkred 0%,
+    rgb(2, 2, 49) 51%,
+    #013654 100%
+  );
+  display: flex;
+  padding: 60px 0 60px 0;
+  flex-direction: column;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.footer-div div {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.footer-div > div > div {
+  max-width: 50%;
+  flex-direction: column;
+}
+
+.div-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-align-1 {
+  text-align: left !important;
+}
+
+.text-align-2 {
+  text-align: center !important;
+}
+
+.text-align-3 {
+  text-align: right !important;
+}
+
+.opacity-0 {
+  opacity: 1;
+}
+
+.opacity-1 {
+  opacity: 0.5;
+}
+
+.bg-color-1 {
+  background: white;
+}
+
+.bg-color-2 {
+  background: red;
+}
+
+.bg-color-3 {
+  background: yellow;
+}
+
+.bg-color-4 {
+  background: blue;
+}
+
+.bg-color-5 {
+  background: black;
+}
+
+.bg-color-6 {
+  background: rgb(17, 25, 95);
+}
+
+.bg-color-7 {
+  background: rgb(25, 173, 211);
+}
+
+.padding-1 {
+  padding: 0.5rem;
+}
+
+.padding-2 {
+  padding: 1rem;
+}
+
+.padding-3 {
+  padding: 1.5rem;
+}
+
+.padding-4 {
+  padding: 2rem;
+}
+
+.border-1 {
+  border: 1px solid white;
+}
+
+.border-2 {
+  border: 1px solid yellow;
+}
+
+.border-3 {
+  border: 1px solid blue;
+}
+
+.border-4 {
+  border: 1px solid black;
+}
+
+.main-div-3 {
+  background: rgb(24, 24, 2);
+  justify-content: center;
+  align-items: center;
+}
+
+.main-div-3 > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-div-3-1 {
+  background: rgb(24, 6, 85);
+  padding: 10px;
+}
+
+.main-div-2-2-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 1rem;
+}
+
+.main-div-3-2 {
+  width: 60vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.25rem;
+  margin-top: 1rem;
+}
+
+input {
+  font-size: 0.1rem;
+  width: 50%;
+}
+
+.card > .header {
+  margin-bottom: 0.25rem;
+}
+
+.card > .body {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.hide {
+  display: none;
+}
+
+.card a {
+  color: blue;
+}
+
+.footer-div-3 div {
+  width: 100%;
+  flex-direction: row;
+}
+
+a {
+  padding: 15px;
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+
+.font-1-1 {
+  font-family: "Playfair Display", serif;
+}
+
+.font-1-2 {
+  font-family: "Caveat", cursive;
+}
+
+.font-1-3 {
+  font-family: "Cinzel", serif;
+}
+
+.font-1-4 {
+  font-family: "Gochi Hand", cursive;
+}
+
+.font-1-5 {
+  font-family: "Merienda", cursive;
+}
+
+.font-2-1 {
+  font-family: "Liu Jian Mao Cao", cursive;
+}
+
+.font-2-2 {
+  font-family: "Long Cang", cursive;
+}
+
+.font-2-3 {
+  font-family: "Ma Shan Zheng", cursive;
+}
+
+.font-2-4 {
+  font-family: "ZCOOL XiaoWei", serif;
+}
+
+.font-2-5 {
+  font-family: "Zhi Mang Xing", cursive;
+}
+
+.p1-1,
+.p1-2,
+.p2-1,
+.p2-2,
+.p3-1,
+.p3-2,
+.p4-1,
+.p4-2,
+.p5-1,
+.p5-2 {
+  padding: 1rem;
+}
+
+.p1-1 {
+  font-size: 30px;
+  color: lawngreen;
+}
+
+.p1-2 {
+  font-size: 30px;
+  color: rgb(197, 140, 140);
+}
+
+.p2-1 {
+  font-size: 25px;
+  color: white;
+}
+
+.p2-2 {
+  font-size: 25px;
+  color: palegoldenrod;
+}
+
+.p3-1 {
+  font-size: 20px;
+  color: gray;
+}
+
+.p3-2 {
+  font-size: 20px;
+  color: rgb(209, 99, 26);
+}
+
+.p4-1 {
+  font-size: 15px;
+  color: rgb(103, 228, 98);
+}
+
+.p4-2 {
+  font-size: 15px;
+  color: white;
+}
+
+.p5-1 {
+  font-size: 10px;
+  color: rgb(96, 211, 42);
+}
+
+.p5-2 {
+  font-size: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .main-div-3-2 {
+    width: 70vw;
+  }
+
+  .footer-div div {
+    flex-direction: column;
+  }
+
+  .footer-div div div {
+    max-width: 100%;
+  }
+
+  .footer-div-3 span {
+    flex-direction: row;
+  }
+}
