@@ -55,7 +55,7 @@ html {
 
 a.company {
   width: 150px;
-  background-color: rgb(97, 26, 48);
+  background-color: rgb(97, 26, 48, 0.5);
   color: white;
   top: 0;
   left: 0;
