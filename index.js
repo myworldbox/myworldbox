@@ -85,5 +85,7 @@ async function flash() {
 }
 
 window.onload = () => {
-  flash();
+  setTimeout(() => {
+    flash();
+  }, 3000);
 }
