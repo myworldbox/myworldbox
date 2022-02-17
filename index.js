@@ -73,21 +73,17 @@ fetchJson("./json/VL-motto.json", "", "", 1)
 fetchJson("./json/VL-link.json", "[data-user-template]", "[data-user-cards-container]", 2)
 
 async function flash() {
-  for (var i = 0; i < 1000;) {
-
-    console.log(motto.length)
+  for (var i = 1; i >= 1; i++) {
     document.getElementsByClassName("absolute-style")[0].innerHTML = motto[Math.floor(Math.random() * motto.length) + 0];
     await new Promise((r) => setTimeout(r, Math.floor(Math.random() * 50) + 10));
-    i++;
-    if (i % 10 == 0) {
+
+    if (!(i % 10)) {
       document.getElementsByClassName("absolute-style")[0].innerHTML = motto[Math.floor(Math.random() * motto.length) + 0];
       await new Promise((r) => setTimeout(r, 5000));
     }
   }
 }
 
-window.onload = function () {
-  setTimeout(() => {
-    flash();
-  }, 5000);
+window.onload = () => {
+  flash();
 }
