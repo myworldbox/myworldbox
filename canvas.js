@@ -1,5 +1,26 @@
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
+var ms;
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function fetch() {
+  for (var i = 1; i >= 1; i++) {
+    document.getElementsByClassName("absolute-style")[0].innerHTML = motto[Math.floor(Math.random() * motto.length) + 0];
+    await delay(Math.floor(Math.random() * 50) + 10);
+
+    if (!(i % 10)) {
+      document.getElementsByClassName("absolute-style")[0].innerHTML = motto[Math.floor(Math.random() * motto.length) + 0];
+      await delay(5000);
+    }
+  }
+}
+
+window.onload = () => {
+  fetch();
+}
 
 canvas.width = innerWidth;
 canvas.height = innerHeight;
