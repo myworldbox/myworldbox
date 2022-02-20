@@ -59,6 +59,7 @@ class Particle {
 }
 
 let particles;
+
 function init() {
   particles = [];
 
