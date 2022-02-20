@@ -8,7 +8,7 @@ let filePath, template, container, operator
 searchInput.addEventListener("input", e => {
   const value = e.target.value.toLowerCase()
   users.forEach(user => {
-    const isVisible = (user.content0.toLowerCase().includes(value) || user.content1.toLowerCase().includes(value))
+    const isVisible = (user.content0.toLowerCase().includes(value) || user.content2.toLowerCase().includes(value))
     user.element.classList.toggle("hide", !isVisible)
   })
 })
@@ -36,7 +36,7 @@ function fetchJson(filePath, template, container, operator) {
 
             let html = "<a class='border-1 padding-1 p3-1 bg-color-6' href='" + user.content1 + "'>" + counter + "</a>"
             body1.innerHTML += html
-            
+
             body2.textContent = user.content2
 
             break;
@@ -50,14 +50,14 @@ function fetchJson(filePath, template, container, operator) {
 
             const header = card.querySelector("[data-header]")
             const body = card.querySelector("[data-body]")
-            
+
             header.innerHTML += "<div class='div-container'><div class='padding-1 border-4' style='background:white;'><div class='link' style='background: url(" + user.content1 + ");'><a href='" + user.content2 + "'></a></div></div></div>"
 
             body.textContent = user.content0
 
             break;
         }
-        
+
         counter = counter + 1
 
         if (container != "") {
@@ -85,7 +85,5 @@ async function flash() {
 }
 
 window.onload = () => {
-  setTimeout(() => {
-    flash();
-  }, 3000);
+  flash();
 }

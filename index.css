@@ -54,19 +54,16 @@ html {
 }
 
 a.company {
-  width: 150px;
-  background-color: rgb(97, 26, 48, 0.5);
+  width: 120px;
+  background-color: rgba(8, 135, 209, 0.4);
   color: white;
   top: 0;
   left: 0;
 }
 
 .header-div a {
-  font-size: 14px !important;
+  font-size: 1rem !important;
   float: left;
-  display: block;
-  padding: 14px 16px;
-  font-size: 17px;
   text-decoration: none;
 }
 
