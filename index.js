@@ -28,7 +28,7 @@ function fetchJson(filePath, template, container, operator) {
                     contentArr[2][operator].textContent = user.content2;
                     break;
                 case 1:
-                    contentArr[0][operator].innerHTML += "<div class='div-container'><div class='padding-1 border-4' style='background:white;'><div class='link' style='background: url(" + user.content1 + ");'><a href='" + user.content2 + "'></a></div></div></div>";
+                    contentArr[0][operator].innerHTML += "<div class='div-container'><div class='padding-1 border-4' style='background:white'><div class='link' style='background: url(" + user.content1 + ")'><a href='" + user.content2 + "'></a></div></div></div>";
                     contentArr[1][operator].textContent = user.content0;
                     break;
                 case 2:
