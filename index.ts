@@ -65,7 +65,7 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
 }
 
 for (var i = 0; i < jsonFile; i++) {
-    fetchJson("./json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
+    fetchJson("https://myworldbox.github.io/resources/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
 }
 
 searchInput.addEventListener("input", e => {
