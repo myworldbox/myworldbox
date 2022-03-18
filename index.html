@@ -28,21 +28,7 @@
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        function inject(url) {
-            if (document.getElementById("code")) {
-                new QRCode(document.getElementById("code"), {
-                    text: url,
-                    width: 60,
-                    height: 60,
-                    colorDark: "#0000FF",
-                    colorLight: "#FFFFFF",
-                    correctLevel: QRCode.CorrectLevel.H
-                })
-                document.getElementById('code').id = 'qrCode'
-            }
-        }
         gtag("js", new Date());
-
         gtag("config", "UA-134209702-3");
     </script>
 </head>
@@ -127,7 +113,7 @@
                             <div class="header" content0-1></div>
                             <div class="body text-align-1" content1-1></div>
 
-                            <div id="code" qrCode></div>
+                            <div id="code" class="border-4 padding-1" qrCode></div>
                             <script content2-1>
                                 inject("https://myworldbox.github.io")
                             </script>

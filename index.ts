@@ -11,6 +11,20 @@ var jsonFile = 3, jsonContent = 3
 
 var searchInput = document.querySelector("[search-1]")
 
+function inject(url: any) {
+    if (document.getElementById("code")) {
+        new QRCode(document.getElementById("code"), {
+            text: url,
+            width: 60,
+            height: 60,
+            colorDark: "#0000FF",
+            colorLight: "#FFFFFF",
+            correctLevel: QRCode.CorrectLevel.H
+        })
+        document.getElementById('code').id = 'qrCode'
+    }
+}
+
 function fetchJson(filePath: any, template: any, container: any, operator: any) {
 
     var counter = 0
