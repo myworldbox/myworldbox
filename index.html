@@ -21,11 +21,26 @@
 
     <link href="https://use.fontawesome.com/a391300b41.css" media="all" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134209702-3"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
+        function inject(url) {
+            if (document.getElementById("code")) {
+                new QRCode(document.getElementById("code"), {
+                    text: url,
+                    width: 60,
+                    height: 60,
+                    colorDark: "#000000",
+                    colorLight: "#ffffff",
+                    correctLevel: QRCode.CorrectLevel.H
+                })
+                document.getElementById('code').id = 'qrCode'
+            }
+        }
         gtag("js", new Date());
 
         gtag("config", "UA-134209702-3");
@@ -105,11 +120,15 @@
                     </div>
 
                     <div class="main-div-3-2 bg-color-1 padding-1" container-1></div>
-
                     <template template-1>
                         <div class="card bg-color-3 padding-1 border-4">
                             <div class="header" content0-1></div>
                             <div class="body text-align-1" content1-1></div>
+
+                            <div id="code" qrCode></div>
+                            <script content2-1>
+                                inject("https://myworldbox.github.io")
+                            </script>
                         </div>
                     </template>
 
@@ -168,6 +187,8 @@
                 <div>
                     <div class="p5-2">Copyright© 2020. VL Blockchain.</div>
                 </div>
+                <div id="qrcode" style="width:100px; height:100px"></div>
+
             </div>
         </div>
     </footer>
