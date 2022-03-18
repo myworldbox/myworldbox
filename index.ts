@@ -43,7 +43,6 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
 
                         contentArr[0][operator].innerHTML += "<div class='div-container'><div class='padding-1 border-4' style='background:white'><div class='link' style='background: url(" + user.content1 + ")'><a href='" + user.content2 + "'></a></div></div></div>"
                         contentArr[1][operator].textContent = user.content0
-
                         contentArr[2][operator].innerHTML = 'inject("' + user.content2 + '")'
 
                         break
