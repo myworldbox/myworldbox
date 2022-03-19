@@ -21,8 +21,6 @@
 
     <link href="https://use.fontawesome.com/a391300b41.css" media="all" rel="stylesheet">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134209702-3"></script>
     <script>
@@ -111,9 +109,9 @@
                     <template template-1>
                         <div class="card bg-color-3 padding-1 border-4">
                             <div class="header" content0-1></div>
-                            <div class="body text-align-1" content1-1></div>
+                            <div class="body text-align-1 border-bottom-1" content1-1></div>
 
-                            <div id="code" class="border-4 padding-1" qrCode></div>
+                            <div id="code" class="padding-1" qrCode></div>
                             <script content2-1>
                                 inject("https://myworldbox.github.io")
                             </script>
@@ -178,6 +176,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://myworldbox.github.io/resources/js/qrcode.min.js"></script>
 
     <link rel="stylesheet/less" type="text/css" href="index.less" />
     <script src="https://cdn.jsdelivr.net/npm/less@4"></script>

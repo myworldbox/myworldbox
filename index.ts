@@ -13,14 +13,18 @@ var searchInput = document.querySelector("[search-1]")
 
 function inject(url: any) {
     if (document.getElementById("code")) {
-        new QRCode(document.getElementById("code"), {
-            text: url,
-            width: 60,
-            height: 60,
-            colorDark: "#0000FF",
-            colorLight: "#FFFFFF",
-            correctLevel: QRCode.CorrectLevel.H
+        var qrcodes = new QRCode({
+            msg: url
+            , dim: 256
+            , pad: 4
+            , mtx: -1
+            , ecl: "H"
+            , ecb: 1
+            , pal: ["#037", "#f2f4f8"]
+            , vrb: 0
+
         })
+        document.getElementById("code").append(qrcodes);
         document.getElementById('code').id = 'qrCode'
     }
 }
