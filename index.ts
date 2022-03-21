@@ -7,22 +7,14 @@ var filePath: any, template: any, container: any, operator: any
 var card: any
 var html: any
 
-var jsonFile = 3, jsonContent = 3
+var jsonFile = 3
 
 var searchInput = document.querySelector("[search-1]")
 
 function inject(url: any) {
     if (document.getElementById("code")) {
         var qrcodes = new QRCode({
-            msg: url
-            , dim: 256
-            , pad: 4
-            , mtx: -1
-            , ecl: "H"
-            , ecb: 1
-            , pal: ["#037", "#f2f4f8"]
-            , vrb: 0
-
+            msg: url, dim: 256, pad: 4, mtx: -1, ecl: "H", ecb: 1, pal: ["#037", "#f2f4f8"], vrb: 0
         })
         document.getElementById("code").append(qrcodes);
         document.getElementById('code').id = 'qrCode'
@@ -38,16 +30,14 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
             var temp = data.map((user: any) => {
                 if (document.querySelector(template)) {
                     card = document.querySelector(template).content.cloneNode(true).children[0]
-                    for (var j = 0; j < jsonContent; j++) {
-                        if (card.querySelector("[content" + j + "-" + operator + "]")) {
-                            contentArr[j][operator] = card.querySelector("[content" + j + "-" + operator + "]")
-                        }
+                    for (var j = 0; card.querySelector("[content" + j + "-" + operator + "]"); j++) {
+                        contentArr[j][operator] = card.querySelector("[content" + j + "-" + operator + "]")
                     }
                 }
 
                 switch (operator) {
 
-                    case 0:
+                    case 0: // my project
 
                         html = "<a class='border-1 padding-1 p3-1 bg-color-6' href='" + user.content1 + "'>" + counter + "</a>"
 
@@ -57,7 +47,7 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
 
                         break
 
-                    case 1:
+                    case 1: // my contact
 
                         contentArr[0][operator].innerHTML += "<div class='div-container'><div class='padding-1 border-4' style='background:white'><div class='link' style='background: url(" + user.content1 + ")'><a href='" + user.content2 + "'></a></div></div></div>"
                         contentArr[1][operator].textContent = user.content0
@@ -65,7 +55,7 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
 
                         break
 
-                    case 2:
+                    case 2: // motto
 
                         motto[counter] = (user.content0)
 
