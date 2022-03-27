@@ -39,7 +39,7 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
 
                     case 0: // my project
 
-                        html = "<a class='border-1 padding-1 p3-1 background-6' href='" + user.content1 + "'>" + counter + "</a>"
+                        html = "<a class='border-1 padding-30 color-12 font-size-20 background-6' href='" + user.content1 + "'>" + counter + "</a>"
 
                         contentArr[0][operator].textContent = user.content0
                         contentArr[1][operator].innerHTML += html
@@ -49,7 +49,7 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
 
                     case 1: // my contact
 
-                        contentArr[0][operator].innerHTML += "<div class='div-container'><div class='padding-1 border-4' style='background:white'><div class='link' style='background: url(" + user.content1 + ")'><a href='" + user.content2 + "'></a></div></div></div>"
+                        contentArr[0][operator].innerHTML += "<div class='div-container'><div class='padding-10 border-4' style='background:white'><div class='link' style='background: url(" + user.content1 + ")'><a href='" + user.content2 + "'></a></div></div></div>"
                         contentArr[1][operator].textContent = user.content0
                         contentArr[2][operator].innerHTML = 'inject("' + user.content2 + '")'
 
