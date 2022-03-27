@@ -324,6 +324,18 @@ a {
   color: white;
 }
 
+.recursive-style( @base-value:@n ; @n ; @unit : px; @j : 1 ;@_s:0 ; @step-size:1  ; @selector:~".span-"; @property : width)
+when not(@n=0)  {
+
+  @size : @base-value+@_s;
+  @{selector}@{j}{
+    @{property} : ~"@{size}@{unit}";
+  }
+  .recursive-style(@base-value ,  (@n - 1), @unit , (@j + 1) ,  (@_s+@step-size) , @step-size,  @selector, @property);
+}
+
+.recursive-style( @n: 100, @base-value:1, @unit: '%', @property:font-size, @selector: ~".font-size-", @step-size: 1);
+
 @media screen and (max-width: 800px) {
   .main-div-3-2 {
     width: 70vw;
