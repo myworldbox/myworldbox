@@ -39,7 +39,7 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
 
                     case 0: // my project
 
-                        html = "<a class='border-1 padding-1 p3-1 bg-color-6' href='" + user.content1 + "'>" + counter + "</a>"
+                        html = "<a class='border-1 padding-1 p3-1 background-6' href='" + user.content1 + "'>" + counter + "</a>"
 
                         contentArr[0][operator].textContent = user.content0
                         contentArr[1][operator].innerHTML += html
