@@ -130,4 +130,10 @@ async function fetch() {
     }
 }
 
+<<<<<<< HEAD
 window.onload = () => fetch()
+=======
+function accessCheck() {
+    (window.top.location.href != "https://myworldbox.vercel.app/") ? fetch() : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='https://myworldbox.github.io' class='color-2'>myworldbox</a><br/>for more information");
+}
+>>>>>>> parent of 04b902a (no message)
