@@ -128,5 +128,5 @@ async function fetch() {
 
 function accessCheck() {
     console.log(window.top.location.href);
-    (window.top.location.href != "https://myworldbox.vercel.app") ? fetch() : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='https://myworldbox.github.io' class='color-2'>myworldbox</a><br/>for more information");
+    (window.top.location.href != "https://myworldbox.vercel.app/") ? fetch() : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='https://myworldbox.github.io' class='color-2'>myworldbox</a><br/>for more information");
 }
