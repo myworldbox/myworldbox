@@ -83,10 +83,6 @@ function animate() {
     c.fillStyle = `rgb(11, 10, 28, ${alpha})`;
     c.fillRect(0, 0, canvas.width, canvas.height);
 
-    //c.textAlign = 'center'; 
-    //c.fillStyle = 'gold';
-    //c.fillText("祝你在亂流下平安", canvas.width / 2, canvas.height / 2);
-
     c.save();
     c.translate(canvas.width / 2, canvas.height / 2);
     c.rotate(radians);
@@ -107,33 +103,23 @@ function animate() {
     }
 }
 
-init();
-animate();
-
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 async function fetch() {
-    if (window.top.location.href == "https://myworldbox.vercel.app/") {
-        for (var i = 1; i >= 1; i++) {
-            document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0];
-            await delay(Math.floor(Math.random() * 50) + 10);
+    for (var i = 1; i >= 1; i++) {
+        document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0];
+        await delay(Math.floor(Math.random() * 50) + 10);
 
-            if (!(i % 10)) {
-                document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0];
-                await delay(5000);
-            }
+        if (!(i % 10)) {
+            document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0];
+            await delay(5000);
         }
-    } else {
-        document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='https://myworldbox.github.io' class='color-2'>myworldbox</a><br/>for more information";
     }
 }
 
-<<<<<<< HEAD
-window.onload = () => fetch()
-=======
-function accessCheck() {
-    (window.top.location.href != "https://myworldbox.vercel.app/") ? fetch() : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='https://myworldbox.github.io' class='color-2'>myworldbox</a><br/>for more information");
-}
->>>>>>> parent of 04b902a (no message)
+window.onload = () => (window.top.location.href != "https://myworldbox.vercel.app/") ? fetch() : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='https://myworldbox.github.io' class='color-2'>myworldbox</a><br/>for more information");
+
+init();
+animate();
