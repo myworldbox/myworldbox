@@ -7,7 +7,11 @@ var filePath: any, template: any, container: any, operator: any
 var card: any
 var html: any
 
+var mottoInterval: any
+
 var jsonFile = 3
+
+var state = true
 
 var searchInput = document.querySelector("[search-1]")
 
@@ -73,10 +77,6 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
         })
 }
 
-for (var i = 0; i < jsonFile; i++) {
-    fetchJson("https://myworldbox.github.io/resources/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
-}
-
 searchInput.addEventListener("input", e => {
     const value = (<HTMLTextAreaElement>e.target).value.toLowerCase()
     users.forEach(user => {
@@ -84,3 +84,24 @@ searchInput.addEventListener("input", e => {
         user.element.classList.toggle("hide", !isVisible)
     })
 })
+
+function setRandomMotto() {
+    document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0]
+}
+
+function setMotto() {
+    state = !state
+    if (state == false) {
+        clearInterval(mottoInterval)
+        document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0]
+    } else {
+        mottoInterval = setInterval(setRandomMotto, Math.floor(Math.random() * 40) + 20)
+    }
+}
+
+for (var i = 0; i < jsonFile; i++) {
+    fetchJson("https://myworldbox.github.io/resources/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
+}
+
+setMotto()
+setInterval(setMotto, Math.floor(Math.random() * 4000) + 2000)

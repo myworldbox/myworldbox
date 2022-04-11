@@ -103,23 +103,7 @@ function animate() {
     }
 }
 
-function delay(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-async function fetch() {
-    for (var i = 1; i >= 1; i++) {
-        document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0];
-        await delay(Math.floor(Math.random() * 50) + 10);
-
-        if (!(i % 10)) {
-            document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0];
-            await delay(5000);
-        }
-    }
-}
-
-window.onload = () => (window.top.location.href != "https://myworldbox.vercel.app/") ? fetch() : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='https://myworldbox.github.io' class='color-2'>myworldbox</a><br/>for more information");
+window.onload = () => (window.top.location.href != "https://myworldbox.vercel.app/") ? 1 : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='https://myworldbox.github.io' class='color-2'>myworldbox</a><br/>for more information");
 
 init();
 animate();
