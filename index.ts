@@ -104,4 +104,4 @@ for (var i = 0; i < jsonFile; i++) {
 }
 
 setMotto()
-setInterval(setMotto, Math.floor(Math.random() * 4000) + 2000)
+setInterval(setMotto, Math.floor(Math.random() * 3000) + 2000)
