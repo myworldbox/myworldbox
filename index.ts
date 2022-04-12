@@ -103,5 +103,4 @@ for (var i = 0; i < jsonFile; i++) {
     fetchJson("https://myworldbox.github.io/resources/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
 }
 
-setMotto()
 setInterval(setMotto, Math.floor(Math.random() *2000) + 1000)
