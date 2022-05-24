@@ -2,11 +2,7 @@ var users = []
 var motto = []
 var contentArr = [[], [], []]
 
-var filePath: any, template: any, container: any, operator: any
-
-var card: any
-
-var mottoInterval: any
+var filePath: any, template: any, container: any, operator: any, mottoInterval: any
 
 var jsonFile = 3
 
@@ -27,6 +23,7 @@ var inject = (url: any) => {
 var fetchJson = (filePath: any, template: any, container: any, operator: any) => {
 
     var counter = 0
+    var card: any
     fetch(filePath)
         .then(res => res.json())
         .then(data => {
