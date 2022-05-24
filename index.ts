@@ -5,7 +5,6 @@ var contentArr = [[], [], []]
 var filePath: any, template: any, container: any, operator: any
 
 var card: any
-var html: any
 
 var mottoInterval: any
 
@@ -15,7 +14,7 @@ var state = true
 
 var searchInput = document.querySelector("[search-1]")
 
-function inject(url: any) {
+var inject = (url: any) => {
     if (document.getElementById("code")) {
         var qrcodes = new QRCode({
             msg: url, dim: 256, pad: 4, mtx: -1, ecl: "H", ecb: 1, pal: ["#037", "#f2f4f8"], vrb: 0
@@ -25,7 +24,7 @@ function inject(url: any) {
     }
 }
 
-function fetchJson(filePath: any, template: any, container: any, operator: any) {
+var fetchJson = (filePath: any, template: any, container: any, operator: any) => {
 
     var counter = 0
     fetch(filePath)
@@ -43,10 +42,8 @@ function fetchJson(filePath: any, template: any, container: any, operator: any) 
 
                     case 0: // my project
 
-                        html = "<a class='border-1 padding-30 color-12 font-size-20 background-6' href='" + user.content1 + "'>" + counter + "</a>"
-
                         contentArr[0][operator].textContent = user.content0
-                        contentArr[1][operator].innerHTML += html
+                        contentArr[1][operator].innerHTML += "<a class='border-1 padding-30 color-12 font-size-20 background-6' href='" + user.content1 + "'>" + counter + "</a>"
                         contentArr[2][operator].textContent = user.content2
 
                         break
@@ -85,11 +82,11 @@ searchInput.addEventListener("input", e => {
     })
 })
 
-function setRandomMotto() {
+var setRandomMotto = () => {
     document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0]
 }
 
-function setMotto() {
+var setMotto = () => {
     state = !state
     if (state == false) {
         clearInterval(mottoInterval)
@@ -99,8 +96,17 @@ function setMotto() {
     }
 }
 
+var setCompany = () => {
+    if (document.getElementById("company")) {
+        document.getElementById("company").id = document.getElementById("company").innerText = "myworldbox"
+        setCompany();
+    }
+}
+
 for (var i = 0; i < jsonFile; i++) {
     fetchJson("https://myworldbox.github.io/resources/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
 }
 
-setInterval(setMotto, Math.floor(Math.random() *2000) + 1000)
+setInterval(setMotto, Math.floor(Math.random() * 2000) + 1000)
+
+setCompany()
