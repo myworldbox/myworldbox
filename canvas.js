@@ -60,16 +60,20 @@ var init = () => {
 
     particles = []
 
-    for (let i = 0; i < 450; i++) {
-        const canvasWidth = canvas.width + 300
-        const canvasHeight = canvas.height + 300
-        const x = Math.random() * canvasWidth - canvasWidth / 2
-        const y = Math.random() * canvasHeight - canvasHeight / 2
-        const radius = 2 * Math.random()
-
-        const color = colors[Math.floor(Math.random() * colors.length)]
-        particles.push(new Particle(x, y, radius, color))
+    var for_loop = (i) => {
+        if (i < 450) {
+            const canvasWidth = canvas.width + 300
+            const canvasHeight = canvas.height + 300
+            const x = Math.random() * canvasWidth - canvasWidth / 2
+            const y = Math.random() * canvasHeight - canvasHeight / 2
+            const radius = 2 * Math.random()
+            const color = colors[Math.floor(Math.random() * colors.length)]
+            
+            particles.push(new Particle(x, y, radius, color))
+            for_loop(i + 1)
+        }
     }
+    for_loop(0)
 }
 
 var animate = () => {
