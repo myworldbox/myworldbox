@@ -1,6 +1,6 @@
 ### Hi 👋 I am myworldbox
 
-<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=CWKSC&theme=react" />
+<img width="50%" align="right" src="https://github-readme-stats.vercel.app/api?username=myworldbox&theme=react" />
 
 Here are some ideas to get you started:
 
