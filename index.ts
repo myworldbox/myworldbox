@@ -1,6 +1,6 @@
 var users = []
-var motto = []
-var contentArr = [[], [], []]
+var motto : any = []
+var contentArr : any = [[], [], []]
 
 var filePath: any, template: any, container: any, operator: any, mottoInterval: any
 
@@ -11,13 +11,13 @@ var state = true
 var searchInput = document.querySelector("[search-1]")
 
 var inject = (url: any) => {
-    
-    if (document.getElementById("code")) {
+    var element = document.getElementById("code")
+    if (element) {
         var qrcodes = new QRCode({
             msg: url, dim: 256, pad: 4, mtx: -1, ecl: "H", ecb: 1, pal: ["#037", "#f2f4f8"], vrb: 0
         })
-        document.getElementById("code").append(qrcodes);
-        document.getElementById('code').id = 'qrCode'
+        element.append(qrcodes);
+        element.id = 'qrCode'
     }
 }
 
@@ -72,13 +72,15 @@ var fetchJson = (filePath: any, template: any, container: any, operator: any) =>
         })
 }
 
-searchInput.addEventListener("input", e => {
+if (searchInput) {
+    searchInput.addEventListener("input", e => {
     const value = (<HTMLTextAreaElement>e.target).value.toLowerCase()
     users.forEach(user => {
         const isVisible = (user.content0.toLowerCase().includes(value) || user.content2.toLowerCase().includes(value))
         user.element.classList.toggle("hide", !isVisible)
     })
 })
+}
 
 var setRandomMotto = () => {
     document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0]
@@ -95,8 +97,9 @@ var setMotto = () => {
 }
 
 var setCompany = () => {
-    if (document.getElementById("company")) {
-        document.getElementById("company").id = document.getElementById("company").innerText = "myworldbox"
+    var element = document.getElementById("company")
+    if (element) {
+        element.id = element.innerText = "myworldbox"
         setCompany();
     }
 }
