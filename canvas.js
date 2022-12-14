@@ -106,7 +106,51 @@ function animate() {
     }
 }
 
-window.onload = () => (!window.top.location.href.includes("https://myworldbox.vercel.app/")) ? 1 : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='https://myworldbox.github.io' class='color-2'>myworldbox</a><br/>for more information");
+window.onload = () => {
+    var domain = "https://myworldbox.ml"
 
+    var domainID = [
+        "domain-icon-1",
+        "domain-manifest",
+        "domain-qrcode",
+        "domain-less",
+        "domain-icon-2",
+        "domain-icon-3",
+        "domain-ts",
+        "domain-ts-compile",
+    ];
+
+    var qualifiedName = [
+        "href",
+        "href",
+        "src",
+        "href",
+        "src",
+        "src",
+        "src",
+        "src",
+    ];
+
+    var value = [
+        "/resources/images/VLlogo.png",
+        "/resources/manifest/manifest.json",
+        "/resources/js/qrcode.min.js",
+        "/resources/less/index.less",
+        "/resources/images/VL.jpeg",
+        "/resources/images/VL.png",
+        "/resources/js/typescript.min.js",
+        "/resources/js/typescript.compile.min.js",
+    ];
+
+    for (let i = 0; i < domainID.length; i++) {
+        if (document.getElementById(domainID[i])) {
+            console.log(domainID[i], qualifiedName[i], domain, value[i])
+            document.getElementById(domainID[i]).setAttribute(qualifiedName[i], domain + value[i]);
+        }
+    }
+
+    (!window.top.location.href.includes("https://myworldbox.vercel.app/")) ? 1 : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='" + domain + "' class='color-2'>myworldbox</a><br/>for more information")
+    
+}
 init();
 animate();
