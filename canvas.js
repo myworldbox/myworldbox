@@ -137,7 +137,7 @@ window.onload = () => {
         "/resources/js/qrcode.min.js",
         "/resources/less/index.less",
         "/resources/images/VL.jpeg",
-        "/resources/images/VL.png",
+        "/resources/images/VLlogo.png",
         "/resources/js/typescript.min.js",
         "/resources/js/typescript.compile.min.js",
     ];
