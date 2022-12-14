@@ -4,8 +4,8 @@ var contentArr = [[], [], []]
 
 var filePath: any, template: any, container: any, operator: any, mottoInterval: any
 
+var domain = "https://myworldbox.ml"
 var jsonFile = 3
-
 var state = true
 
 var searchInput = document.querySelector("[search-1]")
@@ -101,7 +101,7 @@ var setCompany = () => {
 }
 
 for (var i = 0; i < jsonFile; i++) {
-    fetchJson("https://myworldbox.github.io/resources/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
+    fetchJson(domain + "/resources/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
 }
 
 setInterval(setMotto, Math.floor(Math.random() * 2000) + 1000)
