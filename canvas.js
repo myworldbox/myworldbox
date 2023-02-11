@@ -133,14 +133,14 @@ window.onload = () => {
     ];
 
     var value = [
-        "/resources/images/VLlogo.png",
-        "/resources/manifest/manifest.json",
-        "/resources/js/qrcode.min.js",
-        "/resources/less/index.less",
-        "/resources/images/VL.jpeg",
-        "/resources/images/VLlogo.png",
-        "/resources/js/typescript.min.js",
-        "/resources/js/typescript.compile.min.js",
+        "/resource/image/VLlogo.png",
+        "/resource/manifest/manifest.json",
+        "/resource/js/qrcode.min.js",
+        "/resource/less/index.less",
+        "/resource/image/VL.jpeg",
+        "/resource/image/VLlogo.png",
+        "/resource/js/typescript.min.js",
+        "/resource/js/typescript.compile.min.js",
     ];
 
     for (let i = 0; i < domainID.length; i++) {

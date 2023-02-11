@@ -105,7 +105,7 @@ var setCompany = () => {
 }
 
 for (var i = 0; i < jsonFile; i++) {
-    fetchJson(domain + "/resources/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
+    fetchJson(domain + "/resource/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
 }
 
 setInterval(setMotto, Math.floor(Math.random() * 2000) + 1000)
