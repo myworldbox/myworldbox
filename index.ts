@@ -4,7 +4,7 @@ var contentArr : any = [[], [], []]
 
 var filePath: any, template: any, container: any, operator: any, mottoInterval: any
 
-var domain = "https://myworldbox.ml"
+var domain = "https://myworldbox.github.io"
 var jsonFile = 3
 var state = true
 

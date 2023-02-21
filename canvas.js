@@ -107,7 +107,7 @@ function animate() {
 }
 
 window.onload = () => {
-    var domain = "https://myworldbox.ml"
+    var domain = "https://myworldbox.github.io"
 
     /*
     var domainID = [
