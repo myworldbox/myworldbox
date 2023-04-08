@@ -47,15 +47,15 @@ setInterval(() => {
     }
 }, Math.floor(Math.random() * 2000) + 1000);
 
+import * as config from "./config.json";
 
-/*
+console.log("config");
+console.log(config);
+
 (async () => {
-
-    var config = await import(`./ config.json`);
 
     var element = document.getElementById("company")
     if (element) {
         element.id = element.innerText = config.project
     }
 })()
-*/
