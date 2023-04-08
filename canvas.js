@@ -150,7 +150,6 @@ window.onload = () => {
         }
     }
     */
-    (!window.top.location.href.includes("https://myworldbox.vercel.app/")) ? 1 : (document.body.innerHTML = "Access Denied<br/><br/>Go to<br/><a href='" + domain + "' class='color-2'>myworldbox</a><br/>for more information")
 }
 init();
 animate();

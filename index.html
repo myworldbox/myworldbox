@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="company">company</title>
 
-    <link id="domain-icon-1" rel="icon" href="https://myworldbox.github.io/resource/image/VLlogo.png">
+    <link id="domain-icon-1" rel="icon" href="https://myworldbox.github.io/resource/image/logo/VL_0.png">
 
     <link id="domain-manifest" rel="manifest" href="https://myworldbox.github.io/resource/manifest/manifest.json">
 
@@ -36,6 +36,7 @@
 
     <link rel="stylesheet/less" type="text/css" href="index.less" />
     <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <script type="text/javascript" src="canvas.js" defer ></script>
 </head>
@@ -44,25 +45,25 @@
 
     <header>
         <div class="header-div" id="topItem">
-            <div><a class="company font-1-3 bar" id="company" href="/">company</a></div>
+            <div><a class="w-[120px] h-[60px] text-[white] bg-[#0887d1]/[.5] top-[0px] left-[0px]" id="company" href="/">company</a></div>
         </div>
     </header>
 
     <main>
 
-        <div class="main-div-1">
+        <div class="w-[100vw] h-[100vh] text-[palegreen]">
             <canvas id="galaxy">
             </canvas>
-            <div class="motto color-5 opacity-1 font-size-20 font-5"></div>
+            <div class="motto color-5 opacity-[1] text-[20px]"></div>
         </div>
 
 
-        <div class="main-div-2">
+        <div class="flex bg-[#282d5f] p-t-[200px] p-b-[200px] text-[white] text-[0.8rem] flex-col">
 
             <div>
                 <div class="main-div-2-1">
-                    <div class="color-2 font-size-30">Indie Project</div>
-                    <div class="color-9 font-size-20">"Seize Your Time"</div>
+                    <div class="text-[#dd8282] text-[30px]">Indie Project</div>
+                    <div class="text-[#d1631a] text-[20px]">"Seize Your Time"</div>
                 </div>
 
             </div>
@@ -74,11 +75,11 @@
                         <div class="main-div-2-2-1" container-0></div>
 
                         <template template-0>
-                            <div class="card-1 color-1 font-size-20 padding-30">
+                            <div class="card-1 text-[#ffffff] text-[20px] p-[30px]">
 
-                                <div class="color-6 font-size-30 padding-10" content0-0></div>
-                                <div class="border-1 font-1 color-10 font-size-15 padding-10" content1-0></div>
-                                <div class="border-1 font-2 color-10 font-size-15 padding-10 text-align-1" content2-0>
+                                <div class="color-6 text-[30px] padding-[10px]" content0-0>1231231313</div>
+                                <div class="border border-white text-[#33ff00] text-[15px] padding-[10px]" content1-0></div>
+                                <div class="border border-white text-[#33ff00] text-[15px] padding-[10px] text-align-1" content2-0>
                                 </div>
 
                             </div>
@@ -89,40 +90,40 @@
             </div>
         </div>
 
-        <div class="bg main-div-1">
+        <div class="flex justify-center items-center bg-[url('https://myworldbox.github.io/resource/image/background/ascii.gif')] w-[100vw] h-[100vh] text-[palegreen]">
             <div>
-                <div class="color-4 font-size-30 color-14 border-2 padding-15">Moonstop</div>
+                <div class="text-[lawngreen] text-[30px] text-[black] border border-[##dd8282] p-[15px]">Moonstop</div>
             </div>
         </div>
 
         <div>
-            <div class="main-div-3">
+            <div class="flex bg-[#282d5f] p-t-[200px] p-b-[200px] text-[white] text-[0.8rem] flex-col">
 
                 <div>
                     <div class="main-div-2-1">
-                        <div class="color-2 font-size-30">Contact</div>
-                        <div class="color-4 font-size-20">"Seeking Alpha Amidst"</div>
+                        <div class="text-[#dd8282] text-[30px]">Contact</div>
+                        <div class="text-[lawngreen] text-[20px]">"Seeking Alpha Amidst"</div>
                         <div class='div-container'>
-                            <img id="domain-icon-2" class='padding-30' src="https://myworldbox.github.io/resource/image/VL.jpeg"></img>
+                            <img class='p-[10px]' src="https://myworldbox.github.io/resource/image/portrait/VL_0.jpeg"></img>
                         </div>
                     </div>
                 </div>
 
 
                 <div>
-                    <div class="main-div-3-1 border-1">
+                    <div class="bg-[#180655] p-[10px] border border-white">
                         <label for="search">Search</label>
                         <input type="search" id="search" search-1>
                     </div>
 
-                    <div class="main-div-3-2 gap-10" container-1></div>
+                    <div class="main-div-3-2 gap-[10px]" container-1></div>
 
                     <template template-1>
-                        <div class="card background-3 padding-10 border-12">
+                        <div class="card background-3 padding-[10px] border border-white2">
                             <div class="header" content0-1></div>
                             <div class="body text-align-1 border-bottom-1" content1-1></div>
 
-                            <div id="code" class="padding-10" qrCode></div>
+                            <div id="code" class="padding-[10px]" qrCode></div>
                             <script content2-1>
                                 inject("https://myworldbox.github.io")
                             </script>
@@ -134,18 +135,18 @@
         </div>
     </main>
 
-    <div class="bg main-div-1">
+    <div class="flex justify-center items-center bg-[url('https://myworldbox.github.io/resource/image/background/ascii.gif')] w-[100vw] h-[100vh] text-[palegreen]">
         <div>
-            <div class="color-4 font-size-30 color-14 border-2 padding-15">Just Do It</div>
+            <div class="text-[lawngreen] text-[30px] text-[black] border border-[##dd8282] p-[15px]">Just Do It</div>
         </div>
     </div>
 
     <footer>
         <div class="footer-div text-align-1">
             <div>
-                <div class="footer-div-1 padding-15">
-                    <div id="company" class="color-2 font-size-30 padding-15">company</div>
-                    <div class="color-7 font-size-10 border-1 background-14 padding-15">So, who exactly is VL?
+                <div class="footer-div-1 p-[15px]">
+                    <div id="company" class="text-[#dd8282] text-[30px] p-[15px]">company</div>
+                    <div class="text-[#dfbfca] font-size-10 border border-white background-14 p-[15px]">So, who exactly is VL?
                         Well, it is me.
                         Victor is my alias,
                         and Leung is my surname;
@@ -166,23 +167,23 @@
                 </div>
 
                 <div class="footer-div-2">
-                    <div class="color-7 font-size-20 padding-15">"Time is precious, so make it counts"</div>
-                    <div class="color-10 font-size-15 padding-15">V L</div>
-                    <div class="color-9 font-size-20 padding-15">MWB</div>
+                    <div class="text-[#dfbfca] text-[20px] p-[15px]">"Time is precious, so make it counts"</div>
+                    <div class="text-[#33ff00] text-[15px] p-[15px]">V L</div>
+                    <div class="text-[#d1631a] text-[20px] p-[15px]">MWB</div>
                 </div>
 
-                <div class="footer-div-3 padding-15">
-                    <div class="color-101 font-size-15">In HK V Luv</div>
+                <div class="footer-div-3 p-[15px]">
+                    <div class="color-11 text-[15px]">In HK V Luv</div>
                     <span>
-                        <img id="domain-icon-3" class='border-1 padding-20' style='width: 50px; height: 50px;'
-                            src="https://myworldbox.github.io/resource/image/VLlogo.png"></img>
+                        <img id="domain-icon-3" class='border border-white w-[50px] h-[50px] p-[10px]'
+                            src="https://myworldbox.github.io/resource/image/logo/VL_0.png"></img>
                     </span>
                 </div>
             </div>
 
             <div class="footer-div-4">
                 <div>
-                    <div class="color-10 opacity-1 font-size-20 padding-20">Copyright© 2020. VL Blockchain.</div>
+                    <div class="text-[#33ff00] opacity-[1] text-[20px] padding-20">Copyright© 2020. VL Blockchain.</div>
                 </div>
             </div>
         </div>

@@ -1,3 +1,4 @@
+import { description } from './../github1s/vscode-web-github1s/lib/vscode/src/vs/editor/browser/controller/coreCommands';
 var users = []
 var motto : any = []
 var contentArr : any = [[], [], []]
@@ -41,8 +42,8 @@ var fetchJson = (filePath: any, template: any, container: any, operator: any) =>
                     case 0: // my project
 
                         contentArr[0][operator].textContent = user.content0
-                        contentArr[1][operator].innerHTML += "<a class='border-1 padding-30 color-12 font-size-20 background-6' href='" + user.content1 + "'>" + counter + "</a>"
-                        contentArr[2][operator].textContent = user.content2
+                        contentArr[1][operator].innerHTML += "<a class='border-1 padding-30 color-12 font-size-20 background-6' href='" + user.link + "'>" + counter + "</a>"
+                        contentArr[2][operator].textContent = user.description
 
                         break
 
@@ -50,7 +51,7 @@ var fetchJson = (filePath: any, template: any, container: any, operator: any) =>
 
                         contentArr[0][operator].innerHTML += "<div class='div-container'><div class='padding-10 border-13' style='background:white'><div class='link' style='background: url(" + user.content1 + ")'><a href='" + user.content2 + "'></a></div></div></div>"
                         contentArr[1][operator].textContent = user.content0
-                        contentArr[2][operator].innerHTML = 'inject("' + user.content2 + '")'
+                        contentArr[2][operator].innerHTML = 'inject("' + user.link + '")'
 
                         break
 
@@ -104,9 +105,13 @@ var setCompany = () => {
     }
 }
 
-for (var i = 0; i < jsonFile; i++) {
-    fetchJson(domain + "/resource/json/VL-" + i + ".json", "[template-" + i + "]", "[container-" + i + "]", i)
-}
+fetch('https://myworldbox.github.io/resource/json/project/myworldbox.json').then(res => res.json())
+.then(init => {
+    console.log(init.personal_url)
+    console.log(init.project)
+    
+})
+
 
 setInterval(setMotto, Math.floor(Math.random() * 2000) + 1000)
 
