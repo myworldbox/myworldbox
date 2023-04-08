@@ -1,22 +1,25 @@
-var motto: any = []
 var state: any = false;
-var mottoInterval: any;
+
+var motto_timer: any;
+var motto: any = []
+
+var template = ["project", "bio"]
 
 fetch('https://myworldbox.github.io/resource/json/project/myworldbox.json')
     .then(res => res.json())
     .then(data => {
 
-        var template = ["project", "bio"]
-
         template.map((value: any) => {
 
-            console.log(value)
-            if (document.querySelector("[" + value + "]")) {
+            var stack = document.querySelector("[" + value + "]")!
 
-                var card = document.querySelector("[" + value + "]")
+            data[value].map((text: any, i: any) => {
+                stack.innerHTML = "<a class='border-1 padding-30 color-12 font-size-20 background-6' href='" + text.link + "'>" + i + "</a>";
+            })
 
-                console.log(card)
-            }
+            var card = document.querySelector("[" + value + "]")!
+
+            console.log(card)
         })
     })
 
@@ -37,10 +40,10 @@ var random_motto = () => {
 setInterval(() => {
     state = !state
     if (state == false) {
-        clearInterval(mottoInterval)
+        clearInterval(motto_timer)
         document.getElementsByClassName("motto")[0].innerHTML = motto[Math.floor(Math.random() * (motto.length - 1)) + 0]
     } else {
-        mottoInterval = setInterval(random_motto, Math.floor(Math.random() * 40) + 20)
+        motto_timer = setInterval(random_motto, Math.floor(Math.random() * 40) + 20)
     }
 }, Math.floor(Math.random() * 2000) + 1000);
 
