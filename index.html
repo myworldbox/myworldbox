@@ -69,15 +69,14 @@
                 <div>
 
                     <div>
-                        <div class="grid m-t-[1rem] main-div-2-2-1" container-0></div>
+                        <div class="grid m-t-[1rem] main-div-2-2-1" project></div>
 
-                        <template template-0>
+                        <template template-project>
                             <div class="text-[#ffffff] text-[20px] p-[30px]">
 
-                                <div class="text-gray text-[30px] padding-[10px]" content0-0>fuck</div>
-                                <div class="border border-white text-[#33ff00] text-[15px] padding-[10px]" content1-0></div>
-                                <div class="border border-white text-[#33ff00] text-[15px] padding-[10px] text-align-1" content2-0>
-                                </div>
+                                <div class="text-gray text-[30px] padding-[10px]" name></div>
+                                <div class="border border-white text-[#33ff00] text-[15px] padding-[10px]" link></div>
+                                <div class="border border-white text-[#33ff00] text-[15px] padding-[10px] text-left" description></div>
 
                             </div>
                         </template>
@@ -110,19 +109,18 @@
                 <div>
                     <div class="bg-[#180655] p-[10px] border border-white">
                         <label class="p-[10px]" for="search">Search</label>
-                        <input type="search" id="search" search-1>
+                        <input type="search" id="search" search>
                     </div>
 
-                    <div class="main-div-3-2 gap-[10px]" container-1></div>
+                    <div class="main-div-3-2 gap-[10px]" bio></div>
 
-                    <template template-1>
+                    <template template-bio>
                         <div class="card bg-[#da9168] padding-[10px] border border-white2">
-                            <div class="header" content0-1></div>
-                            <div class="body text-align-1 border-bottom-1" content1-1></div>
+                            <div class="header" name></div>
+                            <div class="body text-left border-bottom-1" preview></div>
 
                             <div id="code" class="padding-[10px]" qrCode></div>
-                            <script content2-1>
-                                inject("https://myworldbox.github.io")
+                            <script link>
                             </script>
                         </div>
                     </template>
@@ -139,7 +137,7 @@
     </div>
 
     <footer>
-        <div class="footer-div text-align-1">
+        <div class="footer-div text-left">
             <div>
                 <div class="footer-div-1 p-[15px]">
                     <div id="company" class="text-[#dd8282] text-[30px] p-[15px]">company</div>

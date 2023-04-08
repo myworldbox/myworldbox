@@ -5,8 +5,19 @@ var mottoInterval: any;
 fetch('https://myworldbox.github.io/resource/json/project/myworldbox.json')
     .then(res => res.json())
     .then(data => {
-        console.log(data)
 
+        var template = ["project", "bio"]
+
+        template.map((value: any) => {
+
+            console.log(value)
+            if (document.querySelector("[" + value + "]")) {
+
+                var card = document.querySelector("[" + value + "]")
+
+                console.log(card)
+            }
+        })
     })
 
 fetch('https://myworldbox.github.io/resource/json/motto.json')
