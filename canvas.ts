@@ -1,5 +1,5 @@
-const canvas = document.getElementById('galaxy')
-const c = canvas.getContext("2d");
+var canvas: any = document.getElementById('galaxy');
+var c: any = canvas.getContext("2d");
 
 canvas.width = innerWidth;
 canvas.height = innerHeight;
@@ -39,7 +39,12 @@ addEventListener("resize", () => {
 });
 
 class Particle {
-    constructor(x, y, radius, color) {
+    x: any
+    y: any
+    radius: any
+    color: any
+
+    constructor(x: any, y: any, radius: any, color: any) {
         this.x = x;
         this.y = y;
         this.radius = radius;
@@ -63,7 +68,7 @@ class Particle {
 
 let particles;
 
-function init() {
+var init = () => {
     particles = [];
 
     for (let i = 0; i < 450; i++) {
@@ -81,7 +86,7 @@ function init() {
 let radians = 0;
 let alpha = 1;
 
-function animate() {
+var animate = () => {
     requestAnimationFrame(animate);
     c.fillStyle = `rgb(11, 10, 28, ${alpha})`;
     c.fillRect(0, 0, canvas.width, canvas.height);
