@@ -106,50 +106,5 @@ function animate() {
     }
 }
 
-window.onload = () => {
-    var domain = "https://myworldbox.github.io"
-
-    /*
-    var domainID = [
-        "domain-icon-1",
-        "domain-manifest",
-        "domain-qrcode",
-        "domain-less",
-        "domain-icon-2",
-        "domain-icon-3",
-        "domain-ts",
-        "domain-ts-compile",
-    ];
-
-    var qualifiedName = [
-        "href",
-        "href",
-        "src",
-        "href",
-        "src",
-        "src",
-        "src",
-        "src",
-    ];
-
-    var value = [
-        "/resource/image/VLlogo.png",
-        "/resource/manifest/manifest.json",
-        "/resource/js/qrcode.min.js",
-        "/resource/less/index.less",
-        "/resource/image/VL.jpeg",
-        "/resource/image/VLlogo.png",
-        "/resource/js/typescript.min.js",
-        "/resource/js/typescript.compile.min.js",
-    ];
-
-    for (let i = 0; i < domainID.length; i++) {
-        if (document.getElementById(domainID[i])) {
-            console.log(domainID[i], qualifiedName[i], domain, value[i])
-            document.getElementById(domainID[i]).setAttribute(qualifiedName[i], domain + value[i]);
-        }
-    }
-    */
-}
 init();
 animate();
