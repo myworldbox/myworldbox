@@ -1,8 +1,7 @@
-var canvas: any = document.getElementById('galaxy');
-var c: any = canvas.getContext("2d");
-
-canvas.width = innerWidth;
-canvas.height = innerHeight;
+let mouseMove = false;
+let radians = 0;
+let alpha = 1;
+let particles;
 
 const mouse = {
     x: innerWidth / 2,
@@ -18,7 +17,8 @@ const colors = [
     "#ff9e43",
 ];
 
-let mouseMove = false;
+var canvas: any = document.getElementById('galaxy');
+var c: any = canvas.getContext("2d");
 
 canvas.width = innerWidth
 canvas.height = innerHeight
@@ -66,25 +66,24 @@ class Particle {
     }
 }
 
-let particles;
-
 var init = () => {
     particles = [];
 
     for (let i = 0; i < 450; i++) {
+
         const canvasWidth = canvas.width + 300;
         const canvasHeight = canvas.height + 300;
+
         const x = Math.random() * canvasWidth - canvasWidth / 2;
         const y = Math.random() * canvasHeight - canvasHeight / 2;
+
         const radius = 2 * Math.random();
 
         const color = colors[Math.floor(Math.random() * colors.length)];
+
         particles.push(new Particle(x, y, radius, color));
     }
 }
-
-let radians = 0;
-let alpha = 1;
 
 var animate = () => {
     requestAnimationFrame(animate);

@@ -1,7 +1,6 @@
 :root {
   --resURL: url("https://myworldbox.github.io/resource/image/background/ascii.gif");
 }
-
 * {
   margin: 0 auto;
   padding: 0;
@@ -10,22 +9,18 @@
   word-wrap: break-word;
   font-family: "Times New Roman", Times, serif;
 }
-
 body {
   background: var(--resURL);
   color: aquamarine;
 }
-
 html {
   overflow: auto;
   text-align: center;
 }
-
 .link {
   width: 2.5em;
   height: 2.5em;
 }
-
 .motto {
   position: absolute;
   width: fit-content;
@@ -36,129 +31,107 @@ html {
   margin-left: auto;
   white-space: pre;
 }
-
 .header-div {
   position: fixed;
   top: 0;
   left: 0;
-  a {
-    font-size: 1rem !important;
-    float: left;
-    text-decoration: none;
-  }
-  a:hover {
-    background-color: palegoldenrod;
-    color: darkred;
-  }
 }
-
+.header-div a {
+  font-size: 1rem !important;
+  float: left;
+  text-decoration: none;
+}
+.header-div a:hover {
+  background-color: palegoldenrod;
+  color: darkred;
+}
 .footer-div {
-  background: linear-gradient(
-    190deg,
-    darkred 0%,
-    rgb(2, 2, 49) 51%,
-    #013654 100%
-  );
+  background: linear-gradient(190deg, darkred 0%, #020231 51%, #013654 100%);
   display: flex;
   padding: 60px 0 60px 0;
   flex-direction: column;
   color: white;
   font-size: 0.8rem;
-  div {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-  }
-  > div > div {
-    max-width: 50%;
-    flex-direction: column;
-  }
 }
-
+.footer-div div {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.footer-div > div > div {
+  max-width: 50%;
+  flex-direction: column;
+}
 .div-container {
   width: 100%;
   display: flex;
   justify-content: center;
-  img {
-    width: 100px;
-    height: 100px;
-  }
 }
-
+.div-container img {
+  width: 100px;
+  height: 100px;
+}
 #qrCode > svg {
   width: 70px;
   height: 70px;
 }
-
 .main-div-3 {
-  background: rgb(24, 24, 2);
+  background: #181802;
   justify-content: center;
   align-items: center;
-  > div {
-    display: flex;
-    flex-direction: column;
-  }
 }
-
+.main-div-3 > div {
+  display: flex;
+  flex-direction: column;
+}
 .main-div-2-2-1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin-top: 1rem;
 }
-
 .main-div-3-2 {
   width: 50vw;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   margin-top: 1rem;
 }
-
 input {
   font-size: 0.1rem;
   width: 50%;
 }
-
-.card {
-  a {
-    color: blue;
-  }
-  .header {
-    margin-bottom: 0.25rem;
-  }
-  .body {
-    font-size: 0.8rem;
-    color: #777;
-  }
+.card a {
+  color: blue;
 }
-
+.card .header {
+  margin-bottom: 0.25rem;
+}
+.card .body {
+  font-size: 0.8rem;
+  color: #777;
+}
 .hide {
   display: none;
 }
-
 .footer-div-3 div {
   width: 100%;
   flex-direction: row;
 }
-
 a {
   padding: 15px;
   color: white;
   width: 20px;
   height: 20px;
 }
-
 @media screen and (max-width: 800px) {
   .main-div-3-2 {
     width: 70vw;
   }
-
   .footer-div div {
     flex-direction: column;
-    div {
-      max-width: 100%;
-    }
   }
-
+  .footer-div div div {
+    max-width: 100%;
+  }
   .footer-div-3 span {
     flex-direction: row;
   }
