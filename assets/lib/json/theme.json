@@ -1,0 +1,18 @@
+{
+    "light": {
+        "background": "#FFFFFF",
+        "text": "#000000",
+        "border": "#CCCCCC"
+    },
+    "dark": {
+        "background": "#333333",
+        "text": "#FFFFFF",
+        "border": "#999999"
+    },
+    "contrast": {
+        "background": "#010101",
+        "text": "#00FF00",
+        "border": "#0000FF"
+    },
+    "common": {}
+}
