@@ -1,0 +1,74 @@
+{
+  "company_name": "我的世界",
+  "exist": "離開",
+  "/": {
+    "start": "立即加入",
+    "intro": "我在 Next.js、.NET 和 Flutter 方面擁有豐富的專業知識。我的大部分專案都發佈在我的 GitHub - myworldbox 上。請隨意參考看看。身為全端開發和演算法交易等複雜領域的狂熱愛好者，我獲得了香港科技大學的電腦工程學位。懷著在自己選擇的職業道路上取得成功的強烈願望，我全心全意、堅定不移地追求這個機會。作為一名全端開發人員，我所取得的成就包括對 AWS Educate、HKUST Path Advisor 和 USThing 等有影響力的協會做出的顯著貢獻。此外，我還獲得了HKT300種子基金，用於我的開創性計畫UniLetsBeFd。我非常熱切地表達了我真誠的願望，希望抓住這個機會，它將為我提供寶貴的實踐見解，並使我能夠增強我的技能。",
+    "footer": "版權所有 @ 2025"
+  },
+  "/auth/login": {
+    "system_login": "登入系統",
+    "scan_card": "請按圖示拍咭",
+    "camera_scan": "相機掃描",
+    "scan_code": "掃描會員代碼",
+    "member_code": "會員代碼"
+  },
+  "/auth/register": {},
+  "/auth/verification": {},
+  "/auth/forget_password": {},
+  "/auth/reset_password": {},
+  "/user/setting": {},
+  "/user/update_auth": {},
+  "/user/update_user": {},
+  "/menu/login": {
+    "welcome": "{user.name}，\n歡迎你!",
+    "question": "是你嗎?"
+  },
+  "/menu/order": {
+    "select": "請選擇",
+    "order": "訂餐",
+    "summary": "查詢已訂飯餐"
+  },
+  "/menu/food": {
+    "breakfast": "早餐",
+    "lunch": "午餐",
+    "dinner": "晚餐",
+    "public_holiday": "公眾假期",
+    "select_all": "全選",
+    "reselect": "重選",
+    "finish_order": "完成訂單",
+    "start": "開始訂餐",
+    "total_meal": "總餐數",
+    "total_price": "總計",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日"
+  },
+  "/order/rule": {
+    "order": "訂餐",
+    "start_order": "開始訂餐"
+  },
+  "/payment/cash": {
+    "order_is": "是次訂單號碼為",
+    "complete_order": "訂單已完成",
+    "take_ticket": "請取票",
+    "pay_at_cashier": "請到櫃台付款"
+  },
+  "/table/order": {
+    "welcome": "{user.name} ({user.id}) 歡迎你!",
+    "member_num": "會員卡號碼",
+    "date": "日期",
+    "activity": "活動",
+    "time": "時間",
+    "location": "地點"
+  },
+  "/test/param": {},
+  "/scan/camera": {
+    "scan_code": "掃描會員代碼",
+    "member_code": "會員代碼"
+  }
+}
