@@ -1,0 +1,74 @@
+{
+  "company_name": "香港圣公会福利协会有限公司",
+  "exist": "离开",
+  "/": {
+    "start": "立即加入",
+    "intro": "我在 Next.js、.NET 和 Flutter 方面拥有丰富的专业知识。我的大部分专案都发布在我的 GitHub - myworldbox 上。请随意参考看看。身为全端开发和演算法交易等复杂领域的狂热爱好者，我获得了香港科技大学的电脑工程学位。怀着在自己选择的职业道路上取得成功的强烈愿望，我全心全意、坚定不移地追求这个机会。作为一名全端开发人员，我所取得的成就包括对 AWS Educate、HKUST Path Advisor 和 USThing 等有影响力的协会做出的显著贡献。此外，我还获得了HKT300种子基金，用于我的开创性计画UniLetsBeFd。我非常热切地表达了我真诚的愿望，希望抓住这个机会，它将为我提供宝贵的实践见解，并使我能够增强我的技能。",
+    "footer": "版权所有 @ 2025"
+  },
+  "/auth/login": {
+    "system_login": "登录系统",
+    "scan_card": "请按图标拍卡",
+    "camera_scan": "相机扫描",
+    "scan_code": "扫描会员代码",
+    "member_code": "会员代码"
+  },
+  "/auth/register": {},
+  "/auth/verification": {},
+  "/auth/forget_password": {},
+  "/auth/reset_password": {},
+  "/user/setting": {},
+  "/user/update_auth": {},
+  "/user/update_user": {},
+  "/menu/login": {
+    "welcome": "{user.name}，\n欢迎你!",
+    "question": "是你吗?"
+  },
+  "/menu/order": {
+    "select": "请选择",
+    "order": "订餐",
+    "summary": "查询已订饭餐"
+  },
+  "/menu/food": {
+    "breakfast": "早餐",
+    "lunch": "午餐",
+    "dinner": "晚餐",
+    "public_holiday": "公众假期",
+    "select_all": "全选",
+    "reselect": "重选",
+    "finish_order": "完成订单",
+    "start": "开始订餐",
+    "total_meal": "总餐数",
+    "total_price": "总计",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日"
+  },
+  "/order/rule": {
+    "order": "订餐",
+    "start_order": "开始订餐"
+  },
+  "/payment/cash": {
+    "order_is": "是次订单号码为",
+    "topic": "订单已完成",
+    "take_ticket": "请取票",
+    "pay_at_cashier": "请到柜台付款"
+  },
+  "/table/order": {
+    "welcome": "{user.name} ({user.id}) 欢迎你!",
+    "member_num": "会员卡号码",
+    "date": "日期",
+    "activity": "活动",
+    "time": "时间",
+    "location": "地点"
+  },
+  "/test/param": {},
+  "/scan/camera": {
+    "scan_code": "扫描会员代码",
+    "member_code": "会员代码"
+  }
+}

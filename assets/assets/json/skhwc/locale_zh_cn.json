@@ -1,0 +1,65 @@
+{
+  "company_name": "香港圣公会福利协会有限公司",
+  "exist": "离开",
+  "/": {
+    "start": "请按屏幕\n开始点餐"
+  },
+  "/auth/login": {
+    "system_login": "登录系统",
+    "scan_card": "请按图标拍卡",
+    "camera_scan": "相机扫描",
+    "scan_code": "扫描会员代码",
+    "member_code": "会员代码"
+  },
+  "/menu/login": {
+    "welcome": "{user.name}，\n欢迎你!",
+    "question": "是你吗?"
+  },
+  "/menu/order": {
+    "select": "请选择",
+    "order": "订餐",
+    "summary": "查询已订饭餐"
+  },
+  "/menu/food": {
+    "breakfast": "早餐",
+    "lunch": "午餐",
+    "dinner": "晚餐",
+    "public_holiday": "公众假期",
+    "select_all": "全选",
+    "reselect": "重选",
+    "finish_order": "完成订单",
+    "start": "开始订餐",
+    "total_meal": "总餐数",
+    "total_price": "总计",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日"
+  },
+  "/order/rule": {
+    "order": "订餐",
+    "start_order": "开始订餐"
+  },
+  "/payment/cash": {
+    "order_is": "是次订单号码为",
+    "topic": "订单已完成",
+    "take_ticket": "请取票",
+    "pay_at_cashier": "请到柜台付款"
+  },
+  "/table/order": {
+    "welcome": "{user.name} ({user.id}) 欢迎你!",
+    "member_num": "会员卡号码",
+    "date": "日期",
+    "activity": "活动",
+    "time": "时间",
+    "location": "地点"
+  },
+  "/test/param": {},
+  "/scan/camera": {
+    "scan_code": "扫描会员代码",
+    "member_code": "会员代码"
+  }
+}

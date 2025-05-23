@@ -1,0 +1,74 @@
+{
+  "company_name": "myworldbox",
+  "exist": "Exit",
+  "/": {
+    "start": "join now",
+    "intro": "I possess substantial expertise in Next.js, .NET, and Flutter.Most of my projects are posted on my GitHub - myworldbox. Please feel free to refer to take a look.As a fervent enthusiast of the intricate fields of full-stack development and algorithmic trading, I have obtained a degree in Computer Engineering at HKUST. With an ardent desire to excel in my chosen career path, I am wholeheartedly compelled to pursue this opportunity with unwavering dedication.My portfolio of accomplishments as a full-stack developer includes noteworthy contributions to influential associations such as AWS Educate, HKUST Path Advisor, and USThing. Furthermore, I have also been bestowed with the HKT300 seed fund, for my pioneering project, UniLetsBeFd.It is with great eagerness that I express my earnest desire to seize this opportunity, which will provide me with invaluable practical insights and enable me to augment my skill set.",
+    "footer": "Copyright @ 2025"
+  },
+  "/auth/login": {
+    "system_login": "System Login",
+    "scan_card": "Please press the icon to scan card",
+    "camera_scan": "Camera scan",
+    "scan_code": "Scan member code",
+    "member_code": "member code"
+  },
+  "/auth/register": {},
+  "/auth/verification": {},
+  "/auth/forget_password": {},
+  "/auth/reset_password": {},
+  "/user/setting": {},
+  "/user/update_auth": {},
+  "/user/update_user": {},
+  "/menu/login": {
+    "welcome": "{user.name},\nWelcome!",
+    "question": "Is this you?"
+  },
+  "/menu/order": {
+    "select": "Please select",
+    "order": "Order meal",
+    "summary": "Check ordered meals"
+  },
+  "/menu/food": {
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "public_holiday": "Public Holiday",
+    "select_all": "Select All",
+    "reselect": "Reselect",
+    "finish_order": "Complete Order",
+    "start": "Start Ordering",
+    "total_meal": "Total Meals",
+    "total_price": "Total Price",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "/order/rule": {
+    "order": "Order meal",
+    "start_order": "Start Ordering"
+  },
+  "/payment/cash": {
+    "order_is": "The order number is",
+    "topic": "Order Completed",
+    "take_ticket": "Please take your ticket",
+    "pay_at_cashier": "Please pay at the counter"
+  },
+  "/table/order": {
+    "welcome": "{user.name} ({user.id}) Welcome!",
+    "member_num": "Membership card number",
+    "date": "Date",
+    "activity": "Activity",
+    "time": "Time",
+    "location": "Location"
+  },
+  "/test/param": {},
+  "/scan/camera": {
+    "scan_code": "Scan member code",
+    "member_code": "member code"
+  }
+}
