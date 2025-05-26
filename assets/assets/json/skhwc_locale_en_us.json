@@ -45,7 +45,7 @@
   },
   "/payment/cash": {
     "order_is": "The order number is",
-    "topic": "Order Completed",
+    "complete_order": "Order Completed",
     "take_ticket": "Please take your ticket",
     "pay_at_cashier": "Please pay at the counter"
   },
