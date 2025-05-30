@@ -1,10 +1,11 @@
 {
   "company_name": "myworldbox",
   "exist": "Exit",
+  "copyright": "Copyright © 2025 {company.name}.",
+  "reserve_right": "All rights reserved.",
   "/": {
     "start": "join now",
-    "intro": "I possess substantial expertise in Next.js, .NET, and Flutter.Most of my projects are posted on my GitHub - myworldbox. Please feel free to refer to take a look.As a fervent enthusiast of the intricate fields of full-stack development and algorithmic trading, I have obtained a degree in Computer Engineering at HKUST. With an ardent desire to excel in my chosen career path, I am wholeheartedly compelled to pursue this opportunity with unwavering dedication.My portfolio of accomplishments as a full-stack developer includes noteworthy contributions to influential associations such as AWS Educate, HKUST Path Advisor, and USThing. Furthermore, I have also been bestowed with the HKT300 seed fund, for my pioneering project, UniLetsBeFd.It is with great eagerness that I express my earnest desire to seize this opportunity, which will provide me with invaluable practical insights and enable me to augment my skill set.",
-    "footer": "Copyright @ 2025"
+    "intro": "I possess substantial expertise in Next.js, .NET, and Flutter.Most of my projects are posted on my GitHub - myworldbox. Please feel free to refer to take a look.As a fervent enthusiast of the intricate fields of full-stack development and algorithmic trading, I have obtained a degree in Computer Engineering at HKUST. With an ardent desire to excel in my chosen career path, I am wholeheartedly compelled to pursue this opportunity with unwavering dedication.My portfolio of accomplishments as a full-stack developer includes noteworthy contributions to influential associations such as AWS Educate, HKUST Path Advisor, and USThing. Furthermore, I have also been bestowed with the HKT300 seed fund, for my pioneering project, UniLetsBeFd.It is with great eagerness that I express my earnest desire to seize this opportunity, which will provide me with invaluable practical insights and enable me to augment my skill set."
   },
   "/auth/login": {
     "system_login": "System Login",
