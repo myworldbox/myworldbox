@@ -1,56 +1,602 @@
 [
-  { "index": 1, "label": "無懼世事\n\t變改" },
-  { "index": 2, "label": "祝你在亂流下\n\t平安" },
-  { "index": 3, "label": "悠悠乎與\n\t灝氣俱" },
-  { "index": 4, "label": "滿招損\n\t謙受益" },
-  { "index": 5, "label": "老驥伏櫪\n\t志在千里" },
-  { "index": 6, "label": "踏破鐵鞋無覓處\n\t得來全不費工夫" },
-  { "index": 7, "label": "欲窮千里目\n\t更上一層樓" },
-  { "index": 8, "label": "藍藍天空\n\t高掛我的夢想" },
-  { "index": 9, "label": "寧化飛灰\n\t不作浮塵" },
-  { "index": 10, "label": "千磨萬擊\n\t還堅韌" },
-  { "index": 11, "label": "漫瀾\n\t星河" },
-  { "index": 12, "label": "風中\n\t旅人" },
-  { "index": 13, "label": "我思\n\t飄飄" },
-  { "index": 14, "label": "鍥而不捨\n\t金石可鏤" },
-  { "index": 15, "label": "願你出走半生\n\t歸來仍是少年" },
-  { "index": 16, "label": "每口呼吸\n\t竟是如此清新" },
-  { "index": 17, "label": "純正\n\t快樂" },
-  { "index": 18, "label": "銀河\n\t沙漏" },
-  { "index": 19, "label": "青春年華\n\t百代留芳" },
-  { "index": 20, "label": "銀河星辰\n\t也不及您好" },
-  { "index": 21, "label": "死有重於泰山\n\t或輕於鴻毛" },
-  { "index": 22, "label": "有志者\n\t事竟成" },
-  { "index": 23, "label": "千里之行\n\t始於足下" },
-  { "index": 24, "label": "羽之神勇\n\t千古無雙" },
-  { "index": 25, "label": "寧為玉碎\n\t不為瓦全" },
-  { "index": 26, "label": "燕雀安知鴻鵠之志哉" },
-  { "index": 27, "label": "暴霜露\n\t斬荊棘" },
-  { "index": 28, "label": "究天人之際\n\t通古今之變" },
-  { "index": 29, "label": "風水\n\t輪流轉" },
-  { "index": 30, "label": "智者千慮\n\t必有一失" },
-  { "index": 31, "label": "愚者千慮\n\t必有一得" },
-  { "index": 32, "label": "飛鳥盡\n\t良弓藏" },
-  { "index": 33, "label": "狡兔死\n\t走狗烹" },
-  { "index": 34, "label": "運籌策帷帳之中\n\t決勝於千里之外" },
-  { "index": 35, "label": "雖萬被戮\n\t豈有悔哉" },
-  { "index": 36, "label": "兵者\n\t詭道也" },
-  { "index": 37, "label": "一夫當關\n\t萬夫莫開" },
-  { "index": 38, "label": "王侯將相\n\t寧有種乎" },
-  { "index": 39, "label": "奮六世之餘烈\n\t振長策而御宇內" },
-  { "index": 40, "label": "天下熙熙\n\t皆為利來" },
-  { "index": 41, "label": "當斷不斷\n\t反受其亂" },
-  { "index": 42, "label": "待到秋來九月八\n\t我花開後百花殺" },
-  { "index": 43, "label": "沖天香陣透長安\n\t滿城盡帶黃金甲" },
-  { "index": 44, "label": "人生得意須盡歡\n\t莫使金樽空對月" },
-  { "index": 45, "label": "春花秋月\n\t何時了" },
-  { "index": 46, "label": "對酒當歌\n\t人生幾何" },
-  { "index": 47, "label": "譬如朝露\n\t去日苦多" },
-  { "index": 48, "label": "螳螂捕蟬\n\t黃雀在後" },
-  { "index": 49, "label": "仁義不施\n\t而攻守之勢異也" },
-  { "index": 50, "label": "人棄我取\n\t人取我與" },
-  { "index": 51, "label": "人方為刀俎\n\t我為魚肉" },
-  { "index": 52, "label": "富貴多士\n\t貧賤寡友" },
-  { "index": 53, "label": "夫哀莫大於心死" },
-  { "index": 54, "label": "一騎絕塵" }
+  {
+    "index": 1,
+    "label": "王侯將相\n\t寧有種乎",
+    "source": "史記·陳涉世家",
+    "author": "司馬遷"
+  },
+  {
+    "index": 2,
+    "label": "燕雀安知\n\t鴻鵠之志",
+    "source": "史記·陳涉世家",
+    "author": "司馬遷"
+  },
+  {
+    "index": 3,
+    "label": "人固有一死\n\t或重於泰山",
+    "source": "史記·報任安書",
+    "author": "司馬遷"
+  },
+  {
+    "index": 4,
+    "label": "人固有一死\n\t或重於泰山\n\t或輕於鴻毛",
+    "source": "史記·報任安書",
+    "author": "司馬遷"
+  },
+  {
+    "index": 5,
+    "label": "大行不顧細謹\n\t大禮不辭小讓",
+    "source": "史記·項羽本紀",
+    "author": "司馬遷"
+  },
+  {
+    "index": 6,
+    "label": "四面楚歌\n\t霸王別姬",
+    "source": "史記·項羽本紀",
+    "author": "司馬遷"
+  },
+  {
+    "index": 7,
+    "label": "毛遂自薦\n\t脫穎而出",
+    "source": "史記·平原君列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 8,
+    "label": "路漫漫其修遠兮\n\t吾將上下而求索",
+    "source": "楚辭·離騷",
+    "author": "屈原"
+  },
+  {
+    "index": 9,
+    "label": "亦余心之所善兮\n\t雖九死其猶未悔",
+    "source": "楚辭·離騷",
+    "author": "屈原"
+  },
+  {
+    "index": 10,
+    "label": "長太息以掩涕兮\n\t哀民生之多艱",
+    "source": "楚辭·離騷",
+    "author": "屈原"
+  },
+  {
+    "index": 11,
+    "label": "乘騏驥以馳騁兮\n\t來吾道夫先路",
+    "source": "楚辭·離騷",
+    "author": "屈原"
+  },
+  {
+    "index": 12,
+    "label": "身既死兮神以靈\n\t魂魄毅兮為鬼雄",
+    "source": "楚辭·九歌·國殤",
+    "author": "屈原"
+  },
+  {
+    "index": 13,
+    "label": "誠既勇兮又以武\n\t終剛強兮不可凌",
+    "source": "楚辭·九歌·國殤",
+    "author": "屈原"
+  },
+  {
+    "index": 14,
+    "label": "與天地兮同壽\n\t與日月兮同光",
+    "source": "楚辭·九章·涉江",
+    "author": "屈原"
+  },
+  {
+    "index": 15,
+    "label": "寧化飛灰\n\t不作浮塵",
+    "source": "楚辭·九章·悲回風",
+    "author": "屈原"
+  },
+  {
+    "index": 16,
+    "label": "老驥伏櫪\n\t志在千里",
+    "source": "短歌行",
+    "author": "曹操"
+  },
+  {
+    "index": 17,
+    "label": "烈士暮年\n\t壯心不已",
+    "source": "短歌行",
+    "author": "曹操"
+  },
+  {
+    "index": 18,
+    "label": "對酒當歌\n\t人生幾何",
+    "source": "短歌行",
+    "author": "曹操"
+  },
+  {
+    "index": 19,
+    "label": "鞠躬盡瘁\n\t死而後已",
+    "source": "三國志·蜀書·諸葛亮傳",
+    "author": "陳壽"
+  },
+  {
+    "index": 20,
+    "label": "寧教我負天下人\n\t休教天下人負我",
+    "source": "三國志·魏書·曹操傳",
+    "author": "陳壽"
+  },
+  {
+    "index": 21,
+    "label": "士為知己者死\n\t女為悅己者容",
+    "source": "戰國策·趙策",
+    "author": "劉向"
+  },
+  {
+    "index": 22,
+    "label": "寧為雞口\n\t無為牛後",
+    "source": "戰國策·韓策",
+    "author": "劉向"
+  },
+  {
+    "index": 23,
+    "label": "風蕭蕭兮易水寒\n\t壯士一去兮不復還",
+    "source": "戰國策·燕策",
+    "author": "劉向"
+  },
+  {
+    "index": 24,
+    "label": "鍥而不捨\n\t金石可鏤",
+    "source": "荀子·勸學",
+    "author": "荀況"
+  },
+  {
+    "index": 25,
+    "label": "不積跬步\n\t無以至千里",
+    "source": "荀子·勸學",
+    "author": "荀況"
+  },
+  {
+    "index": 26,
+    "label": "青取之於藍\n\t而青於藍",
+    "source": "荀子·勸學",
+    "author": "荀況"
+  },
+  {
+    "index": 27,
+    "label": "蓬生麻中\n\t不扶而直",
+    "source": "荀子·勸學",
+    "author": "荀況"
+  },
+  {
+    "index": 28,
+    "label": "寧為玉碎\n\t不為瓦全",
+    "source": "北齊書·元景安傳",
+    "author": "李百藥"
+  },
+  {
+    "index": 29,
+    "label": "犯強漢者\n\t雖遠必誅",
+    "source": "漢書·陳湯傳",
+    "author": "班固"
+  },
+  {
+    "index": 30,
+    "label": "水至清則無魚\n\t人至察則無徒",
+    "source": "漢書·東方朔傳",
+    "author": "班固"
+  },
+  {
+    "index": 31,
+    "label": "志不求易\n\t事不避難",
+    "source": "左傳·昭公十年",
+    "author": "左丘明"
+  },
+  {
+    "index": 32,
+    "label": "多行不義\n\t必自斃",
+    "source": "左傳·隱公元年",
+    "author": "左丘明"
+  },
+  {
+    "index": 33,
+    "label": "居安思危\n\t思則有備",
+    "source": "左傳·襄公十一年",
+    "author": "左丘明"
+  },
+  {
+    "index": 34,
+    "label": "天皇皇地皇皇\n\t吾寧死不屈",
+    "source": "楚辭·九歌·國殤",
+    "author": "屈原"
+  },
+  {
+    "index": 35,
+    "label": "人生得意須盡歡\n\t莫使金樽空對月",
+    "source": "將進酒",
+    "author": "李白"
+  },
+  {
+    "index": 36,
+    "label": "天生我材必有用\n\t千金散盡還復來",
+    "source": "將進酒",
+    "author": "李白"
+  },
+  {
+    "index": 37,
+    "label": "長風破浪\n\t會有時",
+    "source": "行路難",
+    "author": "李白"
+  },
+  {
+    "index": 38,
+    "label": "直掛雲帆\n\t濟滄海",
+    "source": "行路難",
+    "author": "李白"
+  },
+  {
+    "index": 39,
+    "label": "安能摧眉折腰事權貴\n\t使我不得開心顏",
+    "source": "夢遊天姥吟留別",
+    "author": "李白"
+  },
+  {
+    "index": 40,
+    "label": "欲窮千里目\n\t更上一層樓",
+    "source": "登鸛雀樓",
+    "author": "王之渙"
+  },
+  {
+    "index": 41,
+    "label": "黃沙百戰穿金甲\n\t不破樓蘭終不還",
+    "source": "從軍行",
+    "author": "王昌齡"
+  },
+  {
+    "index": 42,
+    "label": "醉臥沙場君莫笑\n\t古來征戰幾人回",
+    "source": "涼州詞",
+    "author": "王翰"
+  },
+  {
+    "index": 43,
+    "label": "寧為百夫長\n\t不作一書生",
+    "source": "從軍行",
+    "author": "楊炯"
+  },
+  {
+    "index": 44,
+    "label": "大漠孤煙直\n\t長河落日圓",
+    "source": "使至塞上",
+    "author": "王維"
+  },
+  {
+    "index": 45,
+    "label": "會挽雕弓如滿月\n\t西北望射天狼",
+    "source": "江城子·密州出獵",
+    "author": "蘇軾"
+  },
+  {
+    "index": 46,
+    "label": "了卻君王天下事\n\t贏得生前身後名",
+    "source": "破陣子",
+    "author": "辛棄疾"
+  },
+  {
+    "index": 47,
+    "label": "醉裡挑燈看劍\n\t夢回吹角連營",
+    "source": "破陣子",
+    "author": "辛棄疾"
+  },
+  {
+    "index": 48,
+    "label": "馬作的盧飛快\n\t弓如霹靂弦驚",
+    "source": "破陣子",
+    "author": "辛棄疾"
+  },
+  {
+    "index": 49,
+    "label": "壯志饑餐胡虜肉\n\t笑談渴飲匈奴血",
+    "source": "滿江紅",
+    "author": "岳飛"
+  },
+  {
+    "index": 50,
+    "label": "待從頭收拾舊山河\n\t朝天闕",
+    "source": "滿江紅",
+    "author": "岳飛"
+  },
+  {
+    "index": 51,
+    "label": "三十功名塵與土\n\t八千里路雲和月",
+    "source": "滿江紅",
+    "author": "岳飛"
+  },
+  {
+    "index": 52,
+    "label": "生當作人傑\n\t死亦為鬼雄",
+    "source": "夏日絕句",
+    "author": "李清照"
+  },
+  {
+    "index": 53,
+    "label": "人生自古誰無死\n\t留取丹心照汗青",
+    "source": "過零丁洋",
+    "author": "文天祥"
+  },
+  {
+    "index": 54,
+    "label": "天地有正氣\n\t雜然賦流形",
+    "source": "正氣歌",
+    "author": "文天祥"
+  },
+  {
+    "index": 55,
+    "label": "慷慨歌燕市\n\t從容作楚囚",
+    "source": "正氣歌",
+    "author": "文天祥"
+  },
+  {
+    "index": 56,
+    "label": "烈士不顧身\n\t慷慨赴國難",
+    "source": "正氣歌",
+    "author": "文天祥"
+  },
+  {
+    "index": 57,
+    "label": "一腔熱血勤珍重\n\t灑去猶能化碧濤",
+    "source": "對酒",
+    "author": "秋瑾"
+  },
+  {
+    "index": 58,
+    "label": "拼將十萬頭顱血\n\t須把乾坤力挽回",
+    "source": "黃海舟中日人索句",
+    "author": "秋瑾"
+  },
+  {
+    "index": 59,
+    "label": "封侯非我意\n\t但願海波平",
+    "source": "題自畫像",
+    "author": "戚繼光"
+  },
+  {
+    "index": 60,
+    "label": "一身報國有萬死\n\t雙鬢向人無再青",
+    "source": "夜泊水村",
+    "author": "陸游"
+  },
+  {
+    "index": 61,
+    "label": "位卑未敢忘憂國\n\t事定猶須待闔棺",
+    "source": "病起書懷",
+    "author": "陸游"
+  },
+  {
+    "index": 62,
+    "label": "男兒何不帶吳鉤\n\t收取關山五十州",
+    "source": "南園十三首",
+    "author": "李賀"
+  },
+  {
+    "index": 63,
+    "label": "待到秋來九月八\n\t我花開後百花殺",
+    "source": "不第後賦菊",
+    "author": "黃巢"
+  },
+  {
+    "index": 64,
+    "label": "沖天香陣透長安\n\t滿城盡帶黃金甲",
+    "source": "不第後賦菊",
+    "author": "黃巢"
+  },
+  {
+    "index": 65,
+    "label": "暴霜露\n\t斬荊棘",
+    "source": "楚辭·九歌·東皇太一",
+    "author": "屈原"
+  },
+  {
+    "index": 66,
+    "label": "風雷動\n\t旌旗奮",
+    "source": "楚辭·九歌·大司命",
+    "author": "屈原"
+  },
+  {
+    "index": 67,
+    "label": "千磨萬擊還堅勁\n\t任爾東西南北風",
+    "source": "竹石",
+    "author": "鄭板橋"
+  },
+  {
+    "index": 68,
+    "label": "烈士之志\n\t慷慨悲歌",
+    "source": "楚辭·九章·涉江",
+    "author": "屈原"
+  },
+  {
+    "index": 69,
+    "label": "項王之勇\n\t千古無雙",
+    "source": "史記·項羽本紀",
+    "author": "司馬遷"
+  },
+  {
+    "index": 70,
+    "label": "霍去病之勇\n\t一騎絕塵",
+    "source": "漢書·霍去病傳",
+    "author": "班固"
+  },
+  {
+    "index": 71,
+    "label": "踏破鐵鞋無覓處\n\t得來全不費工夫",
+    "source": "禪宗語錄",
+    "author": "佚名"
+  },
+  {
+    "index": 72,
+    "label": "智者千慮\n\t必有一失",
+    "source": "晏子春秋·內篇雜下",
+    "author": "佚名"
+  },
+  {
+    "index": 73,
+    "label": "愚者千慮\n\t必有一得",
+    "source": "晏子春秋·內篇雜下",
+    "author": "佚名"
+  },
+  {
+    "index": 74,
+    "label": "高岸為谷\n\t深谷為陵",
+    "source": "詩經·小雅·十月之交",
+    "author": "佚名"
+  },
+  {
+    "index": 75,
+    "label": "他山之石\n\t可以攻玉",
+    "source": "詩經·小雅·鶴鳴",
+    "author": "佚名"
+  },
+  {
+    "index": 76,
+    "label": "靡不有初\n\t鮮克有終",
+    "source": "詩經·大雅·蕩",
+    "author": "佚名"
+  },
+  {
+    "index": 77,
+    "label": "安危在出令\n\t存亡在所任",
+    "source": "左傳·宣公十二年",
+    "author": "左丘明"
+  },
+  {
+    "index": 78,
+    "label": "雖萬被戮\n\t豈有悔哉",
+    "source": "史記·伍子胥列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 79,
+    "label": "烈士捐軀\n\t志節不改",
+    "source": "楚辭·九章·惜誦",
+    "author": "屈原"
+  },
+  {
+    "index": 80,
+    "label": "長嘯天地間\n\t志氣貫日月",
+    "source": "楚辭·九章·橘頌",
+    "author": "屈原"
+  },
+  {
+    "index": 81,
+    "label": "志士不飲盜泉水\n\t廉者不受嗟來食",
+    "source": "後漢書·列女傳",
+    "author": "范曄"
+  },
+  {
+    "index": 82,
+    "label": "大丈夫當朝碧海\n\t暮蒼梧",
+    "source": "漢書·嚴助傳",
+    "author": "班固"
+  },
+  {
+    "index": 83,
+    "label": "寧可枝頭抱香死\n\t何曾吹落北風中",
+    "source": "菊花",
+    "author": "鄭思肖"
+  },
+  {
+    "index": 84,
+    "label": "丈夫志四海\n\t萬里猶比鄰",
+    "source": "短歌行",
+    "author": "曹操"
+  },
+  {
+    "index": 85,
+    "label": "烈焰焚身志不移\n\t丹心猶照汗青史",
+    "source": "正氣歌",
+    "author": "文天祥"
+  },
+  {
+    "index": 86,
+    "label": "願將腰下劍\n\t直為斬樓蘭",
+    "source": "塞下曲",
+    "author": "李白"
+  },
+  {
+    "index": 87,
+    "label": "一身轉戰三千里\n\t一劍曾當百萬師",
+    "source": "盧綸詩",
+    "author": "盧綸"
+  },
+  {
+    "index": 88,
+    "label": "誓掃匈奴不顧身\n\t五千貂錦喪胡塵",
+    "source": "白馬篇",
+    "author": "曹植"
+  },
+  {
+    "index": 89,
+    "label": "報國欲死無戰場\n\t空悲切",
+    "source": "蜀道難",
+    "author": "李白"
+  },
+  {
+    "index": 90,
+    "label": "志在四方\n\t天地為家",
+    "source": "戰國策·齊策",
+    "author": "劉向"
+  },
+  {
+    "index": 91,
+    "label": "風雲際會英雄出\n\t肝膽相照生死同",
+    "source": "三國志·蜀書·關羽傳",
+    "author": "陳壽"
+  },
+  {
+    "index": 92,
+    "label": "豪氣干雲霄\n\t丹心照九州",
+    "source": "滿江紅",
+    "author": "岳飛"
+  },
+  {
+    "index": 93,
+    "label": "男兒立志出鄉關\n\t學不成名誓不還",
+    "source": "題西林壁",
+    "author": "蘇軾"
+  },
+  {
+    "index": 94,
+    "label": "烈士凌霜雪\n\t丹心映山河",
+    "source": "正氣歌",
+    "author": "文天祥"
+  },
+  {
+    "index": 95,
+    "label": "丈夫誓許國\n\t肝膽兩昆侖",
+    "source": "對酒",
+    "author": "秋瑾"
+  },
+  {
+    "index": 96,
+    "label": "熱血灑疆場\n\t忠魂耀青史",
+    "source": "滿江紅",
+    "author": "岳飛"
+  },
+  {
+    "index": 97,
+    "label": "長歌當哭志未酬\n\t天地為證心不屈",
+    "source": "楚辭·九章·懷沙",
+    "author": "屈原"
+  },
+  {
+    "index": 98,
+    "label": "星河浩蕩志不改\n\t山岳崩頹心猶存",
+    "source": "楚辭·九歌·東君",
+    "author": "屈原"
+  },
+  {
+    "index": 99,
+    "label": "亂雲飛渡仍從容\n\t天外蒼茫看我行",
+    "source": "滿江紅",
+    "author": "岳飛"
+  },
+  {
+    "index": 100,
+    "label": "肝膽昆侖氣\n\t豪情動九天",
+    "source": "楚辭·九章·涉江",
+    "author": "屈原"
+  }
 ]
