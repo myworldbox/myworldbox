@@ -13,63 +13,63 @@
   },
   {
     "index": 3,
-    "label": "止戈為武",
-    "source": "左傳·宣公十二年",
-    "author": "左丘明"
+    "label": "天下熙熙\n\t皆為利來",
+    "source": "史記·貨殖列傳",
+    "author": "司馬遷"
   },
   {
     "index": 4,
+    "label": "天下攘攘\n\t皆為利往",
+    "source": "史記·貨殖列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 5,
     "label": "君子藏器於身\n\t待時而動",
     "source": "周易·繫辭下",
     "author": null
   },
   {
-    "index": 5,
+    "index": 6,
     "label": "狡兔死\n\t走狗烹",
     "source": "史記·越王勾踐世家",
     "author": "司馬遷"
   },
   {
-    "index": 6,
+    "index": 7,
     "label": "飛鳥盡\n\t良弓藏",
     "source": "史記·越王勾踐世家",
     "author": "司馬遷"
   },
   {
-    "index": 7,
+    "index": 8,
     "label": "敵國破\n\t謀臣亡",
     "source": "史記·淮陰侯列傳",
     "author": "司馬遷"
   },
   {
-    "index": 8,
+    "index": 9,
     "label": "有志者事竟成",
     "source": "後漢書·耿弇傳",
     "author": "范曄"
   },
   {
-    "index": 9,
+    "index": 10,
     "label": "前車覆\n\t後車誡",
     "source": "漢書·賈誼傳",
     "author": "班固"
   },
   {
-    "index": 10,
+    "index": 11,
     "label": "三十六策\n\t走為上策",
     "source": "南齊書·王敬則傳",
     "author": "蕭子顯"
   },
   {
-    "index": 11,
+    "index": 12,
     "label": "司馬昭之心\n\t路人所知也",
     "source": "三國志·魏書·高貴鄉公紀",
     "author": "陳壽"
-  },
-  {
-    "index": 12,
-    "label": "天下熙熙，皆為利來\n\t天下攘攘，皆為利往",
-    "source": "史記·貨殖列傳",
-    "author": "司馬遷"
   },
   {
     "index": 13,
@@ -385,7 +385,7 @@
   },
   {
     "index": 65,
-    "label": "人固有一死\n\t或重於泰山\n\t或輕於鴻毛",
+    "label": "或重於泰山\n\t或輕於鴻毛",
     "source": "報任安書",
     "author": "司馬遷"
   },
