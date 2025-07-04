@@ -1,0 +1,19 @@
+{
+  "company_name": "Hong Kong Sheng Kung Hui Welfare Foundation Limited",
+  "exist": "Leave",
+  "/": {
+    "start": "Please press the screen\nto start ordering",
+    "daily_good_book": "Daily Good Book",
+    "suggest": "recommend",
+    "disclaimer": "Disclaimer: The book recommendations are for reference only. Please check the book details before borrowing or purchasing."
+  },
+  "/console/advice": {
+    "daily_good_book": "Good books recommended for you today",
+    "book_name": "Book Name",
+    "book_author": "Author",
+    "book_isbn": "International Standard Book Number",
+    "book_intro": "Introduction",
+    "refresh": "Recommend",
+    "dope": "Very good"
+  }
+}

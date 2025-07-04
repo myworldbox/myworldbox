@@ -1,0 +1,19 @@
+{
+    "company_name": "香港聖公會福利栛會有限公司",
+    "exist": "離開",
+    "/": {
+        "start": "請按螢幕\n開始點餐",
+        "daily_good_book": "是日好書",
+        "suggest": "推介",
+        "disclaimer": "免責聲明：書籍推介僅供參考，請在借閱或購買前查閱書籍詳情。"
+    },
+    "/console/advice": {
+        "daily_good_book": "今日為你推介的好書",
+        "book_name": "書名",
+        "book_author": "作者",
+        "book_isbn": "國際標準書號",
+        "book_intro": "簡介",
+        "refresh": "再推介",
+        "dope": "很好喔"
+    }
+}

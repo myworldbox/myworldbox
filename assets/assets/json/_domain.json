@@ -1,0 +1,289 @@
+[
+    {
+        "id": "google",
+        "type": "company",
+        "domain": [
+            "gmail.com"
+        ]
+    },
+    {
+        "id": "microsoft",
+        "type": "company",
+        "domain": [
+            "outlook.com"
+        ]
+    },
+    {
+        "id": "yahoo",
+        "type": "company",
+        "domain": [
+            "yahoo.com"
+        ]
+    },
+    {
+        "id": "ymca",
+        "type": "organization"
+    },
+    {
+        "id": "hkuspace",
+        "type": "university_extension_arm",
+        "domain": [
+            "learner.hkuspace.hku.hk",
+            "hkuspace.hku.hk",
+            "hkuspace-plk.hku.hk"
+        ]
+    },
+    {
+        "id": "scope",
+        "type": "university_extension_arm",
+        "domain": [
+            "scope.edu"
+        ]
+    },
+    {
+        "id": "cuscs",
+        "type": "university_extension_arm",
+        "domain": [
+            "stu.scs.cuhk.edu.hk"
+        ]
+    },
+    {
+        "id": "speed",
+        "type": "university_extension_arm",
+        "domain": [
+            "common.cpce-polyu.com",
+            "common.cpce-polyu.edu.hk"
+        ]
+    },
+    {
+        "id": "scpe",
+        "type": "university_extension_arm",
+        "domain": [
+            "cie.eduhk.hk",
+            "cie.eduhk.edu.hk"
+        ]
+    },
+    {
+        "id": "lipace",
+        "type": "university_extension_arm",
+        "domain": [
+            "lipace.hkmu.edu.hk"
+        ]
+    },
+    {
+        "id": "life",
+        "type": "university_extension_arm",
+        "domain": [
+            "life.ln.edu.hk"
+        ]
+    },
+    {
+        "id": "sce",
+        "type": "university_extension_arm",
+        "domain": [
+            "sce.hkbu.edu.hk"
+        ]
+    },
+    {
+        "id": "hkcc",
+        "type": "university_extension_arm",
+        "domain": [
+            "common.hkcc-polyu.edu.hk"
+        ]
+    },
+    {
+        "id": "ive",
+        "type": "university_extension_arm",
+        "domain": [
+            "ive.edu.hk"
+        ]
+    },
+    {
+        "id": "vtc",
+        "type": "university_extension_arm",
+        "domain": [
+            "stu.vtc.edu.hk",
+            "vtc.edu.hk"
+        ]
+    },
+    {
+        "id": "hku",
+        "type": "university",
+        "url": "https://www.hku.hk",
+        "domain": [
+            "connect.hku.hk",
+            "hku.hk"
+        ]
+    },
+    {
+        "id": "cuhk",
+        "type": "university",
+        "url": "https://www.cuhk.edu.hk",
+        "domain": [
+            "link.cuhk.edu.hk"
+        ]
+    },
+    {
+        "id": "hkust",
+        "type": "university",
+        "url": "https://hkust.edu.hk",
+        "domain": [
+            "connect.ust.hk",
+            "ust.hk"
+        ]
+    },
+    {
+        "id": "cityu",
+        "type": "university",
+        "url": "https://www.cityu.edu.hk",
+        "domain": [
+            "ad.cityu.edu.hk",
+            "cityu.edu.hk",
+            "my.cityu.edu.hk"
+        ]
+    },
+    {
+        "id": "polyu",
+        "type": "university",
+        "url": "https://www.polyu.edu.hk",
+        "domain": [
+            "connect.polyu.hk"
+        ]
+    },
+    {
+        "id": "buhk",
+        "type": "university",
+        "url": "https://www.hkbu.edu.hk",
+        "domain": [
+            "life.hkbu.edu.hk"
+        ]
+    },
+    {
+        "id": "lu",
+        "type": "university",
+        "url": "https://www.ln.edu.hk",
+        "domain": [
+            "lu.hk"
+        ]
+    },
+    {
+        "id": "eduhk",
+        "type": "university",
+        "url": "https://www.eduhk.hk",
+        "domain": [
+            "s.eduhk.hk"
+        ]
+    },
+    {
+        "id": "hkmu",
+        "type": "university",
+        "url": "https://www.hkmu.edu.hk",
+        "domain": [
+            "study.hkmu.edu.hk",
+            "study.ouhk.edu.hk"
+        ]
+    },
+    {
+        "id": "hsuhk",
+        "type": "university",
+        "url": "https://www.hsu.edu.hk",
+        "domain": [
+            "hsu.edu.hk"
+        ]
+    },
+    {
+        "id": "hksyu",
+        "type": "university",
+        "url": "https://www.hksyu.edu",
+        "domain": [
+            "hksyu.edu.hk"
+        ]
+    },
+    {
+        "id": "cihe",
+        "type": "self_funded_institution",
+        "url": "https://www.hksyu.edu",
+        "domain": [
+            "mail.cihe.edu.hk"
+        ]
+    },
+    {
+        "id": "cbcc",
+        "type": "self_funded_institution",
+        "url": "https://www.hksyu.edu",
+        "domain": [
+            "mail.cbcc.edu.hk"
+        ]
+    },
+    {
+        "id": "centennial-college",
+        "type": "self_funded_institution",
+        "domain": [
+            "centennialcollege.hku.hk"
+        ]
+    },
+    {
+        "id": "gcc",
+        "type": "self_funded_institution",
+        "domain": [
+            "gratia.edu.hk"
+        ]
+    },
+    {
+        "id": "hkct",
+        "type": "self_funded_institution",
+        "domain": [
+            "hkct.edu.hk"
+        ]
+    },
+    {
+        "id": "hkapa",
+        "type": "self_funded_institution",
+        "domain": [
+            "hkapa.edu"
+        ]
+    },
+    {
+        "id": "chuhai",
+        "type": "self_funded_institution",
+        "domain": [
+            "chuhai.edu.hk"
+        ]
+    },
+    {
+        "id": "ny",
+        "type": "self_funded_institution",
+        "domain": [
+            "ny.edu.hk"
+        ]
+    },
+    {
+        "id": "thei",
+        "type": "self_funded_institution",
+        "domain": [
+            "thei.edu.hk"
+        ]
+    },
+    {
+        "id": "twc",
+        "type": "self_funded_institution",
+        "domain": [
+            "twc.edu.hk"
+        ]
+    },
+    {
+        "id": "uowchk",
+        "type": "self_funded_institution",
+        "domain": [
+            "uow.edu.au",
+            "uowchk.edu.hk"
+        ]
+    },
+    {
+        "id": "yccece",
+        "type": "self_funded_institution",
+        "domain": [
+            "yccece.edu.hk"
+        ]
+    }
+]
