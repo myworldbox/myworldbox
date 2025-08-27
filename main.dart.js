@@ -91262,7 +91262,7 @@ s===$&&A.a()
 s.xa()}},
 $S:4}
 A.avd.prototype={
-$1(a){var s=this.a,r=s.f,q=r.hH(),p=r.hH(),o=0.0001+r.hH()*0.0008,n=s.y[r.t1(5)],m=r.a_n()
+$1(a){var s=this.a,r=s.f,q=r.hH(),p=r.hH(),o=0.0001+r.hH()*0.0005,n=s.y[r.t1(5)],m=r.a_n()
 r=r.hH()
 s=B.cf.hH()
 return new A.m4(q*3.141592653589793*4,10+p*1000,o,o,s*0.01,n,m,1+r*2,B.cf.hH())},
