@@ -7,10 +7,14 @@
     "empty": "不能為空"
   },
   "/": {
-    "about_me": "自我介紹",
-    "intro": "我在 Next.js、.NET 和 Flutter 方面擁有深厚的專業知識。\n\n我的大部分專案都發佈在 GitHub（用戶名：myworldbox），歡迎隨時查閱。\n\n作為一個對全端開發和演算法交易充滿熱情的技術愛好者，我在香港科技大學取得了電腦工程學位。懷著對職涯發展的強烈渴望，我全心投入，堅定不移地追求這個機會。\n\n身為全端開發者，我的專案成果涵蓋多個重要平台，包括 AWS Educate、HKUST Path Advisor 和 USThing。此外，我還憑藉創新項目 UniLetsBeFd 獲得了 HKT300 種子基金，金額達港幣 10 萬元。",
+    "intro_topic": "我係梁同學 /(^o^)/",
+    "intro_text": "大家好！我是一位來自香港特別行政區的軟件開發者，熱愛程式設計、歷史和旅行。希望這個網站能讓你更了解我。 XD",
+    "profile_topic": "自我介紹",
+    "profile_text": "我在 Next.js、.NET 和 Flutter 方面擁有深厚的專業知識。\n\n我的大部分專案都發佈在 GitHub（用戶名：myworldbox），歡迎隨時查閱。\n\n作為一個對全端開發和演算法交易充滿熱情的技術愛好者，我在香港科技大學取得了電腦工程學位。懷著對職涯發展的強烈渴望，我全心投入，堅定不移地追求這個機會。\n\n身為全端開發者，我的專案成果涵蓋多個重要平台，包括 AWS Educate、HKUST Path Advisor 和 USThing。此外，我還憑藉創新項目 UniLetsBeFd 獲得了 HKT300 種子基金，金額達港幣 10 萬元。",
     "alias": "梁同學",
-    "education": "香港科技大學電腦工程學士",
+    "bio": "HKUST | CPEG | Savior",
+    "education": "計算機工程學士",
+    "school": "香港科技大學",
     "motto": "言必信，行必果。"
   },
   "/auth/login": {
