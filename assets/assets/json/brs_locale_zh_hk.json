@@ -14,9 +14,9 @@
         "login_failed": "登入失敗"
     },
     "/": {
-        "start": "請按螢幕\n開始點餐",
+        "start": "點擊開始",
         "daily_book": "是日好書",
-        "disclaimer": "免責聲明：書籍推介僅供參考，請在借閱或購買前查閱書籍詳情。",
+        "disclaimer": "免責聲明：\n本程式在拍攝過程中不會儲存拍攝到的照片。",
         "camera_topic": "微笑並拍照",
         "suggest_book": "推介",
         "take_photo": "拍照",
