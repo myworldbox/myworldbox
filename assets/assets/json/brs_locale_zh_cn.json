@@ -11,7 +11,9 @@
     "quit_app_content": "您确定要退出该应用程式吗",
     "empty": "不能为空",
     "login_success": "登录成功",
-    "login_failed": "登录失败"
+    "login_failed": "登录失败",
+    "no_book": "本中心没有书籍",
+    "store_success": "存储成功"
   },
   "/": {
     "start": "请按屏幕\n开始点餐",

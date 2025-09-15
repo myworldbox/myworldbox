@@ -11,7 +11,9 @@
     "quit_app_content": "Are you sure you want to quit the application?",
     "empty": "cannot be empty",
     "login_success": "Login successful",
-    "login_failed": "Login failed"
+    "login_failed": "Login failed",
+    "no_book": "This center has no books",
+    "store_success": "Stored successful"
   },
   "/": {
     "start": "Please press the screen\nto start ordering",
