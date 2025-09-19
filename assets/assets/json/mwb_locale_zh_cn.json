@@ -1,0 +1,85 @@
+{
+  "company_name": "香港圣公会福利协会有限公司",
+  "exist": "离开",
+  "copyright": "版权所有 © 2025 {project.name}。",
+  "reserve_right": "保留所有权利。",
+  "alert": {
+    "empty": "不能为空"
+  },
+  "/": {
+    "intro_topic": "我是梁同学 /(^o^)/",
+    "intro_text": "大家好！我是一位来自香港特别行政区的软体开发者，热爱程式设计、历史和旅行。希望这个网站能让你更加了解我。 XD",
+    "profile_topic": "自我介绍",
+    "profile_text": "我在 Next.js、.NET 和 Flutter 方面拥有深厚的专业知识。\n\n我的大部分项目都发布在 GitHub（用户名：myworldbox），欢迎随时查阅。\n\n作为一位对全栈开发和算法交易充满热情的技术爱好者，我在香港科技大学取得了计算机工程学位。怀着对职业发展的强烈渴望，我全心投入，坚定不移地追求这一机会。\n\n作为全栈开发者，我的项目成果涵盖多个重要平台，包括 AWS Educate、HKUST Path Advisor 和 USThing。此外，我还凭借创新项目 UniLetsBeFd 获得了 HKT300 种子基金，金额达港币 100,000 元。",
+    "alias": "梁同学",
+    "bio": "HKUST | CPEG | Savior",
+    "education": "计算机工程学士",
+    "school": "香港科技大学",
+    "motto": "言必信，行必果。"
+  },
+  "/auth/login": {
+    "system_login": "登录系统",
+    "scan_card": "请按图标拍卡",
+    "camera_scan": "相机扫描",
+    "scan_code": "扫描会员代码",
+    "member_code": "会员代码"
+  },
+  "/auth/register": {},
+  "/auth/verification": {},
+  "/auth/forget_password": {},
+  "/auth/reset_password": {},
+  "/user/setting": {},
+  "/user/update_auth": {},
+  "/user/update_user": {},
+  "/menu/login": {
+    "welcome": "{user.name}，\n欢迎你!",
+    "question": "是你吗?"
+  },
+  "/menu/order": {
+    "select": "请选择",
+    "order": "订餐",
+    "summary": "查询已订饭餐"
+  },
+  "/menu/food": {
+    "breakfast": "早餐",
+    "lunch": "午餐",
+    "dinner": "晚餐",
+    "public_holiday": "公众假期",
+    "select_all": "全选",
+    "reselect": "重选",
+    "finish_order": "完成订单",
+    "start": "开始订餐",
+    "total_meal": "总餐数",
+    "total_price": "总计",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日"
+  },
+  "/order/rule": {
+    "order": "订餐",
+    "start_order": "开始订餐"
+  },
+  "/payment/cash": {
+    "order_is": "是次订单号码为",
+    "topic": "订单已完成",
+    "take_ticket": "请取票",
+    "pay_at_cashier": "请到柜台付款"
+  },
+  "/table/order": {
+    "welcome": "{user.name} ({user.id}) 欢迎你!",
+    "member_num": "会员卡号码",
+    "date": "日期",
+    "activity": "活动",
+    "time": "时间",
+    "location": "地点"
+  },
+  "/test/param": {},
+  "/scan/camera": {
+    "scan_code": "扫描会员代码",
+    "member_code": "会员代码"
+  }
+}

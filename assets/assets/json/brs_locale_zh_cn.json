@@ -1,0 +1,66 @@
+{
+  "company_name": "香港圣公会福利栛会有限公司",
+  "exist": "离开",
+  "back": "返回",
+  "complete": "完成",
+  "confirm": "确认",
+  "cancel": "取消",
+  "pleaseEnter": "请输入",
+  "alert": {
+    "quit_app_title": "退出应用程式",
+    "quit_app_content": "您确定要退出该应用程式吗",
+    "empty": "不能为空",
+    "login_success": "登录成功",
+    "login_failed": "登录失败",
+    "no_book": "本中心没有书籍",
+    "no_center_code": "请设定中心代码",
+    "store_success": "存储成功",
+    "book_update": "书单已更新"
+  },
+  "/": {
+    "start": "请按屏幕\n开始点餐",
+    "daily_book": "今日好书",
+    "disclaimer": "免责声明：书籍推荐仅供参考，请在借阅或购买前查阅书籍详情。",
+    "camera_topic": "微笑并拍照",
+    "suggest_book": "推荐好书",
+    "take_photo": "拍摄照片",
+    "analyze_feature": "分析特征"
+  },
+  "/camera/mirror": {
+    "start": "请按屏幕\n开始点餐",
+    "daily_book": "今日好书",
+    "disclaimer": "免责声明：书籍推荐仅供参考，请在借阅或购买前查阅书籍详情。",
+    "camera_topic": "微笑并拍照",
+    "suggest_book": "推荐好书",
+    "take_photo": "拍摄照片",
+    "analyze_feature": "分析特征"
+  },
+  "/auth/login": {
+    "username": "用户名稱",
+    "password": "密码",
+    "login_topic": "用户登录",
+    "login_button": "登录",
+    "forget_password": "忘记密码？"
+  },
+  "/ai/book": {},
+  "/suggestion/book": {
+    "daily_book": "今日为您推介的好书",
+    "book_name": "书名",
+    "book_author": "作者",
+    "book_isbn": "国际标准书号",
+    "book_intro": "简介",
+    "refresh": "再推介",
+    "dope": "很好喔"
+  },
+  "/transition/scan": {
+    "daily_book": "是日好书",
+    "scan": "推介中"
+  },
+  "/user/setting": {
+    "center_code": "中心代码"
+  },
+  "/test/param": {},
+  "/screen/splash": {
+    "_": "_"
+  }
+}

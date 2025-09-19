@@ -1,0 +1,560 @@
+[
+  {
+    "index": 1,
+    "label": "禍福無門\n\t唯人所召",
+    "source": "左傳·襄公二十三年",
+    "author": "左丘明"
+  },
+  {
+    "index": 2,
+    "label": "舉棋不定\n\t不勝其耦",
+    "source": "左傳·襄公二十五年",
+    "author": "左丘明"
+  },
+  {
+    "index": 3,
+    "label": "天下熙熙\n\t皆為利來",
+    "source": "史記·貨殖列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 4,
+    "label": "天下攘攘\n\t皆為利往",
+    "source": "史記·貨殖列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 5,
+    "label": "君子藏器於身\n\t待時而動",
+    "source": "周易·繫辭下",
+    "author": null
+  },
+  {
+    "index": 6,
+    "label": "狡兔死\n\t走狗烹",
+    "source": "史記·越王勾踐世家",
+    "author": "司馬遷"
+  },
+  {
+    "index": 7,
+    "label": "飛鳥盡\n\t良弓藏",
+    "source": "史記·越王勾踐世家",
+    "author": "司馬遷"
+  },
+  {
+    "index": 8,
+    "label": "敵國破\n\t謀臣亡",
+    "source": "史記·淮陰侯列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 9,
+    "label": "有志者事竟成",
+    "source": "後漢書·耿弇傳",
+    "author": "范曄"
+  },
+  {
+    "index": 10,
+    "label": "前車覆\n\t後車誡",
+    "source": "漢書·賈誼傳",
+    "author": "班固"
+  },
+  {
+    "index": 11,
+    "label": "三十六策\n\t走為上策",
+    "source": "南齊書·王敬則傳",
+    "author": "蕭子顯"
+  },
+  {
+    "index": 12,
+    "label": "司馬昭之心\n\t路人所知也",
+    "source": "三國志·魏書·高貴鄉公紀",
+    "author": "陳壽"
+  },
+  {
+    "index": 13,
+    "label": "桃李不言\n\t下自成蹊",
+    "source": "史記·李將軍列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 14,
+    "label": "禍不妄至\n\t福不徒來",
+    "source": "史記·龜策列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 15,
+    "label": "當斷不斷\n\t反受其亂",
+    "source": "史記·春申君列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 16,
+    "label": "人棄我取\n\t人取我與",
+    "source": "史記·貨殖列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 17,
+    "label": "智者千慮\n\t必有一失",
+    "source": "史記·淮陰侯列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 18,
+    "label": "愚者千慮\n\t必有一得",
+    "source": "史記·淮陰侯列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 19,
+    "label": "燕雀安知鴻鵠之志哉",
+    "source": "史記·陳涉世家",
+    "author": "司馬遷"
+  },
+  {
+    "index": 20,
+    "label": "王侯將相寧有種乎",
+    "source": "史記·陳涉世家",
+    "author": "司馬遷"
+  },
+  {
+    "index": 21,
+    "label": "顧小而忘大\n\t後必有害",
+    "source": "史記·李斯列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 22,
+    "label": "運籌帷幄之中\n\t決勝千里之外",
+    "source": "史記·高祖本紀",
+    "author": "司馬遷"
+  },
+  {
+    "index": 23,
+    "label": "人方為刀俎\n\t我為魚肉",
+    "source": "史記·項羽本紀",
+    "author": "司馬遷"
+  },
+  {
+    "index": 24,
+    "label": "言必信\n\t行必果",
+    "source": "論語·子路",
+    "author": "孔子"
+  },
+  {
+    "index": 25,
+    "label": "敗軍之將\n\t不可以言勇",
+    "source": "史記·淮陰侯列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 26,
+    "label": "以三寸之舌\n\t彊於百萬之師",
+    "source": "史記·平原君虞卿列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 27,
+    "label": "黃金有疵\n\t白玉有瑕",
+    "source": "史記·龜策列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 28,
+    "label": "得黃金百\n\t不如得季布一諾",
+    "source": "史記·季布欒布列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 29,
+    "label": "置將不善\n\t壹敗塗地",
+    "source": "史記·高祖本紀",
+    "author": "司馬遷"
+  },
+  {
+    "index": 30,
+    "label": "富貴多士\n\t貧賤寡友",
+    "source": "史記·孟嘗君列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 31,
+    "label": "恃德者昌\n\t恃力者亡",
+    "source": "尚書·仲虺之誥",
+    "author": null
+  },
+  {
+    "index": 32,
+    "label": "禍兮福所倚\n\t福兮禍所伏",
+    "source": "道德經",
+    "author": "老子"
+  },
+  {
+    "index": 33,
+    "label": "人貌榮名\n\t豈有既乎",
+    "source": "史記·游俠列傳",
+    "author": "司馬遷"
+  },
+  {
+    "index": 34,
+    "label": "時乎時\n\t不再來",
+    "source": "漢書·蒯通傳",
+    "author": "班固"
+  },
+  {
+    "index": 35,
+    "label": "禍兮福所倚\n\t福兮禍所伏",
+    "source": "道德經",
+    "author": "老子"
+  },
+  {
+    "index": 36,
+    "label": "始之易\n\t終之難也",
+    "source": "戰國策·燕策",
+    "author": null
+  },
+  {
+    "index": 37,
+    "label": "千里之行\n\t始於足下",
+    "source": "道德經",
+    "author": "老子"
+  },
+  {
+    "index": 38,
+    "label": "信言不美\n\t美言不信",
+    "source": "道德經",
+    "author": "老子"
+  },
+  {
+    "index": 39,
+    "label": "執古之道\n\t以御今之有",
+    "source": "道德經",
+    "author": "老子"
+  },
+  {
+    "index": 40,
+    "label": "夫哀莫大於心死",
+    "source": "莊子·田子方",
+    "author": "莊子"
+  },
+  {
+    "index": 41,
+    "label": "將欲取之\n\t必固與之",
+    "source": "道德經",
+    "author": "老子"
+  },
+  {
+    "index": 42,
+    "label": "天地有萬古\n\t此身不再得",
+    "source": "菜根譚",
+    "author": "洪應明"
+  },
+  {
+    "index": 43,
+    "label": "巧詐不如拙誠",
+    "source": "韓非子·說林上",
+    "author": "韓非"
+  },
+  {
+    "index": 44,
+    "label": "雖萬被戮\n\t豈有悔哉",
+    "source": "報任安書",
+    "author": "司馬遷"
+  },
+  {
+    "index": 45,
+    "label": "他山之石\n\t可以攻玉",
+    "source": "詩經·小雅·鶴鳴",
+    "author": null
+  },
+  {
+    "index": 46,
+    "label": "踏破鐵鞋無覓處\n\t得來全不費工夫",
+    "source": "絕句",
+    "author": "夏元鼎"
+  },
+  {
+    "index": 47,
+    "label": "項王之勇\n\t千古無雙",
+    "source": "史記·項羽本紀",
+    "author": "司馬遷"
+  },
+  {
+    "index": 48,
+    "label": "千磨萬擊還堅勁\n\t任爾東西南北風",
+    "source": "竹石",
+    "author": "鄭燮"
+  },
+  {
+    "index": 49,
+    "label": "暴霜露\n\t斬荊棘",
+    "source": "六國論",
+    "author": "蘇洵"
+  },
+  {
+    "index": 50,
+    "label": "沖天香陣透長安\n\t滿城盡帶黃金甲",
+    "source": "不第後賦菊",
+    "author": "黃巢"
+  },
+  {
+    "index": 51,
+    "label": "待到秋來九月八\n\t我花開後百花殺",
+    "source": "不第後賦菊",
+    "author": "黃巢"
+  },
+  {
+    "index": 52,
+    "label": "生當作人傑\n\t死亦為鬼雄",
+    "source": "夏日絕句",
+    "author": "李清照"
+  },
+  {
+    "index": 53,
+    "label": "欲窮千里目\n\t更上一層樓",
+    "source": "登鸛雀樓",
+    "author": "王之渙"
+  },
+  {
+    "index": 54,
+    "label": "長風破浪會有時\n\t直掛雲帆濟滄海",
+    "source": "行路難",
+    "author": "李白"
+  },
+  {
+    "index": 55,
+    "label": "天生我材必有用\n\t千金散盡還復來",
+    "source": "將進酒",
+    "author": "李白"
+  },
+  {
+    "index": 56,
+    "label": "人生得意須盡歡\n\t莫使金樽空對月",
+    "source": "將進酒",
+    "author": "李白"
+  },
+  {
+    "index": 57,
+    "label": "居安思危\n\t思則有備",
+    "source": "左傳·襄公十一年",
+    "author": "左丘明"
+  },
+  {
+    "index": 58,
+    "label": "寧為玉碎\n\t不為瓦全",
+    "source": "北齊書·元景安傳",
+    "author": "李百藥"
+  },
+  {
+    "index": 59,
+    "label": "不積跬步\n\t無以至千里",
+    "source": "荀子·勸學",
+    "author": "荀子"
+  },
+  {
+    "index": 60,
+    "label": "士為知己者死\n\t女為悅己者容",
+    "source": "戰國策·趙策",
+    "author": null
+  },
+  {
+    "index": 61,
+    "label": "對酒當歌\n\t人生幾何",
+    "source": "短歌行",
+    "author": "曹操"
+  },
+  {
+    "index": 62,
+    "label": "烈士暮年\n\t壯心不已",
+    "source": "龜雖壽",
+    "author": "曹操"
+  },
+  {
+    "index": 63,
+    "label": "老驥伏櫪\n\t志在千里",
+    "source": "龜雖壽",
+    "author": "曹操"
+  },
+  {
+    "index": 64,
+    "label": "寧化飛灰\n\t不作浮塵",
+    "source": "後漢書·陳寔傳",
+    "author": "范曄"
+  },
+  {
+    "index": 65,
+    "label": "或重於泰山\n\t或輕於鴻毛",
+    "source": "報任安書",
+    "author": "司馬遷"
+  },
+  {
+    "index": 66,
+    "label": "譬如遼東死\n\t斬頭何所傷",
+    "source": "後漢書·逸民傳",
+    "author": "范曄"
+  },
+  {
+    "index": 67,
+    "label": "振長策而御宇內\n\t吞二周而亡諸侯",
+    "source": "過秦論",
+    "author": "賈誼"
+  },
+  {
+    "index": 68,
+    "label": "不以物喜\n\t不以己悲",
+    "source": "岳陽樓記",
+    "author": "范仲淹"
+  },
+  {
+    "index": 69,
+    "label": "先天下之憂而憂\n\t後天下之樂而樂",
+    "source": "岳陽樓記",
+    "author": "范仲淹"
+  },
+  {
+    "index": 70,
+    "label": "投之亡地然後存\n\t陷之死地然後生",
+    "source": "孫子兵法·九地篇",
+    "author": "孫武"
+  },
+  {
+    "index": 71,
+    "label": "兵貴神速",
+    "source": "孫子兵法·九地篇",
+    "author": "孫武"
+  },
+  {
+    "index": 72,
+    "label": "兵者\n\t詭道也",
+    "source": "孫子兵法·始計篇",
+    "author": "孫武"
+  },
+  {
+    "index": 73,
+    "label": "銳卒勿攻\n\t餌兵勿食",
+    "source": "孫子兵法·軍爭篇",
+    "author": "孫武"
+  },
+  {
+    "index": 74,
+    "label": "兵無常勢\n\t水無常形",
+    "source": "孫子兵法·虛實篇",
+    "author": "孫武"
+  },
+  {
+    "index": 75,
+    "label": "利而誘之\n\t亂而取之",
+    "source": "孫子兵法·虛實篇",
+    "author": "孫武"
+  },
+  {
+    "index": 76,
+    "label": "圍師必闕\n\t窮寇勿迫",
+    "source": "孫子兵法·圍地篇",
+    "author": "孫武"
+  },
+  {
+    "index": 77,
+    "label": "天地不仁\n\t以萬物為芻狗",
+    "source": "道德經·第五章",
+    "author": "老子"
+  },
+  {
+    "index": 78,
+    "label": "天道好輪回\n\t蒼天饒過誰",
+    "source": "民間諺語",
+    "author": "未知"
+  },
+  {
+    "index": 79,
+    "label": "帝陰養死士三千\n\t散在人間",
+    "source": "晉書‧景帝紀",
+    "author": "房玄齡"
+  },
+  {
+    "index": 80,
+    "label": "斬木為兵\n\t揭竿為旗",
+    "source": "過秦論‧上篇",
+    "author": "賈誼"
+  },
+  {
+    "index": 81,
+    "label": "屋漏偏逢連夜雨",
+    "source": "醒世恆言‧第三十五卷",
+    "author": "馮夢龍"
+  },
+  {
+    "index": 82,
+    "label": "怒髮衝冠\n\t憑欄處",
+    "source": "滿江紅‧寫懷",
+    "author": "岳飛"
+  },
+  {
+    "index": 83,
+    "label": "元嘉草草\n\t封狼居胥",
+    "source": "永遇樂·京口北固亭懷古",
+    "author": "辛棄疾"
+  },
+  {
+    "index": 84,
+    "label": "仁義不施\n\t而攻守之勢異也",
+    "source": "過秦論",
+    "author": "賈誼"
+  },
+  {
+    "index": 85,
+    "label": "故禍莫憯於欲利\n\t悲莫痛於傷心",
+    "source": "報任少卿書",
+    "author": "司馬遷"
+  },
+  {
+    "index": 86,
+    "label": "轉鬭千里\n\t矢盡道窮",
+    "source": "報任少卿書",
+    "author": "司馬遷"
+  },
+  {
+    "index": 87,
+    "label": "若九牛亡一毛\n\t與螻螘何以異",
+    "source": "報任少卿書",
+    "author": "司馬遷"
+  },
+  {
+    "index": 88,
+    "label": "是以腸一日而九回\n\t居則忽忽若有所亡",
+    "source": "報任少卿書",
+    "author": "司馬遷"
+  },
+  {
+    "index": 89,
+    "label": "舉世皆濁\n\t何不隨其流而揚其波",
+    "source": "報任少卿書",
+    "author": "司馬遷"
+  },
+  {
+    "index": 90,
+    "label": "蝸牛角上爭何事\n\t石火光中寄此身",
+    "source": "對酒",
+    "author": "白居易"
+  },
+  {
+    "index": 91,
+    "label": "山重水複疑無路\n\t柳暗花明又一村",
+    "source": "遊山西村",
+    "author": "陸遊"
+  },
+  {
+    "index": 92,
+    "label": "知君何事淚縱橫\n\t斷腸聲裡憶平生",
+    "source": "浣溪沙‧殘雪凝輝冷畫屏",
+    "author": "納蘭性德"
+  },
+  {
+    "index": 93,
+    "label": "莫等閒\n\t白了少年頭",
+    "source": "滿江紅‧寫懷",
+    "author": "岳飛"
+  }
+]

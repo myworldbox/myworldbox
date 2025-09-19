@@ -1,0 +1,85 @@
+{
+  "company_name": "我的世界",
+  "exist": "離開",
+  "copyright": "版權所有 © 2025 {project.name}。",
+  "reserve_right": "保留所有權利。",
+  "alert": {
+    "empty": "不能為空"
+  },
+  "/": {
+    "intro_topic": "我係梁同學 /(^o^)/",
+    "intro_text": "大家好！我是一位來自香港特別行政區的軟件開發者，熱愛程式設計、歷史和旅行。希望這個網站能讓你更了解我。 XD",
+    "profile_topic": "自我介紹",
+    "profile_text": "我在 Next.js、.NET 和 Flutter 方面擁有深厚的專業知識。\n\n我的大部分專案都發佈在 GitHub（用戶名：myworldbox），歡迎隨時查閱。\n\n作為一個對全端開發和演算法交易充滿熱情的技術愛好者，我在香港科技大學取得了電腦工程學位。懷著對職涯發展的強烈渴望，我全心投入，堅定不移地追求這個機會。\n\n身為全端開發者，我的專案成果涵蓋多個重要平台，包括 AWS Educate、HKUST Path Advisor 和 USThing。此外，我還憑藉創新項目 UniLetsBeFd 獲得了 HKT300 種子基金，金額達港幣 10 萬元。",
+    "alias": "梁同學",
+    "bio": "HKUST | CPEG | Savior",
+    "education": "計算機工程學士",
+    "school": "香港科技大學",
+    "motto": "言必信，行必果。"
+  },
+  "/auth/login": {
+    "system_login": "登入系統",
+    "scan_card": "請按圖示拍咭",
+    "camera_scan": "相機掃描",
+    "scan_code": "掃描會員代碼",
+    "member_code": "會員代碼"
+  },
+  "/auth/register": {},
+  "/auth/verification": {},
+  "/auth/forget_password": {},
+  "/auth/reset_password": {},
+  "/user/setting": {},
+  "/user/update_auth": {},
+  "/user/update_user": {},
+  "/menu/login": {
+    "welcome": "{user.name}，\n歡迎你!",
+    "question": "是你嗎?"
+  },
+  "/menu/order": {
+    "select": "請選擇",
+    "order": "訂餐",
+    "summary": "查詢已訂飯餐"
+  },
+  "/menu/food": {
+    "breakfast": "早餐",
+    "lunch": "午餐",
+    "dinner": "晚餐",
+    "public_holiday": "公眾假期",
+    "select_all": "全選",
+    "reselect": "重選",
+    "finish_order": "完成訂單",
+    "start": "開始訂餐",
+    "total_meal": "總餐數",
+    "total_price": "總計",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期日"
+  },
+  "/order/rule": {
+    "order": "訂餐",
+    "start_order": "開始訂餐"
+  },
+  "/payment/cash": {
+    "order_is": "是次訂單號碼為",
+    "complete_order": "訂單已完成",
+    "take_ticket": "請取票",
+    "pay_at_cashier": "請到櫃台付款"
+  },
+  "/table/order": {
+    "welcome": "{user.name} ({user.id}) 歡迎你!",
+    "member_num": "會員卡號碼",
+    "date": "日期",
+    "activity": "活動",
+    "time": "時間",
+    "location": "地點"
+  },
+  "/test/param": {},
+  "/scan/camera": {
+    "scan_code": "掃描會員代碼",
+    "member_code": "會員代碼"
+  }
+}

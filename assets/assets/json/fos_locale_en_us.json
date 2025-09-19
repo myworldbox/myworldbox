@@ -1,0 +1,65 @@
+{
+  "company_name": "Hong Kong Sheng Kung Hui Welfare Council Limited",
+  "exist": "Exit",
+  "/": {
+    "start": "Please press the screen\nto start ordering"
+  },
+  "/auth/login": {
+    "system_login": "System Login",
+    "scan_card": "Please press the icon to scan card",
+    "camera_scan": "Camera scan",
+    "scan_code": "Scan member code",
+    "member_code": "member code"
+  },
+  "/menu/login": {
+    "welcome": "{user.name},\nWelcome!",
+    "question": "Is this you?"
+  },
+  "/menu/order": {
+    "select": "Please select",
+    "order": "Order meal",
+    "summary": "Check ordered meals"
+  },
+  "/menu/food": {
+    "breakfast": "Breakfast",
+    "lunch": "Lunch",
+    "dinner": "Dinner",
+    "public_holiday": "Public Holiday",
+    "select_all": "Select All",
+    "reselect": "Reselect",
+    "finish_order": "Complete Order",
+    "start": "Start Ordering",
+    "total_meal": "Total Meals",
+    "total_price": "Total Price",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  },
+  "/order/rule": {
+    "order": "Order meal",
+    "start_order": "Start Ordering"
+  },
+  "/payment/cash": {
+    "order_is": "The order number is",
+    "complete_order": "Order Completed",
+    "take_ticket": "Please take your ticket",
+    "pay_at_cashier": "Please pay at the counter"
+  },
+  "/table/order": {
+    "welcome": "{user.name} ({user.id}) Welcome!",
+    "member_num": "Membership card number",
+    "date": "Date",
+    "activity": "Activity",
+    "time": "Time",
+    "location": "Location"
+  },
+  "/test/param": {},
+  "/scan/camera": {
+    "scan_code": "Scan member code",
+    "member_code": "member code"
+  }
+}

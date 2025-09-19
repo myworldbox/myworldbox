@@ -1,0 +1,66 @@
+{
+  "company_name": "香港聖公會福利栛會有限公司",
+  "exist": "離開",
+  "back": "返回",
+  "complete": "完成",
+  "confirm": "確認",
+  "cancel": "取消",
+  "pleaseEnter": "請輸入",
+  "alert": {
+    "quit_app_title": "退出應用程式",
+    "quit_app_content": "您確定要退出該應用程式嗎",
+    "empty": "不能為空",
+    "login_success": "登入成功",
+    "login_failed": "登入失敗",
+    "no_book": "本中心沒有書籍",
+    "no_center_code": "請設定中心代碼",
+    "store_success": "儲存成功",
+    "book_update": "書單已更新"
+  },
+  "/": {
+    "start": "點擊開始",
+    "daily_book": "是日好書",
+    "disclaimer": "免責聲明：\n本程式在拍攝過程中不會儲存拍攝到的照片。",
+    "camera_topic": "微笑並拍照",
+    "suggest_book": "推介",
+    "take_photo": "拍照",
+    "analyze_feature": "分析特徵"
+  },
+  "/camera/mirror": {
+    "start": "點擊開始",
+    "daily_book": "是日好書",
+    "disclaimer": "免責聲明：\n本程式在拍攝過程中不會儲存拍攝到的照片。",
+    "camera_topic": "微笑並拍照",
+    "suggest_book": "推介",
+    "take_photo": "拍照",
+    "analyze_feature": "分析特徵"
+  },
+  "/ai/book": {},
+  "/auth/login": {
+    "username": "用戶名稱",
+    "password": "密碼",
+    "login_topic": "用戶登入",
+    "login_button": "登入",
+    "forget_password": "忘記密碼？"
+  },
+  "/suggestion/book": {
+    "daily_book": "今日為您推介的好書",
+    "book_name": "書名",
+    "book_author": "作者",
+    "book_isbn": "國際標準書號",
+    "book_intro": "簡介",
+    "refresh": "再推介",
+    "dope": "很好喔"
+  },
+  "/transition/scan": {
+    "daily_book": "是日好書",
+    "scan": "推介中"
+  },
+  "/user/setting": {
+    "center_code": "中心代碼"
+  },
+  "/test/param": {},
+  "/screen/splash": {
+    "_": "_"
+  }
+}

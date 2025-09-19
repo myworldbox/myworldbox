@@ -1,0 +1,66 @@
+{
+  "company_name": "Hong Kong Sheng Kung Hui Welfare Foundation Limited",
+  "exist": "Leave",
+  "back": "Back",
+  "complete": "Complete",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "pleaseEnter": "Please enter",
+  "alert": {
+    "quit_app_title": "Quit Application",
+    "quit_app_content": "Are you sure you want to quit the application?",
+    "empty": "cannot be empty",
+    "login_success": "Login successful",
+    "login_failed": "Login failed",
+    "no_book": "This center has no books",
+    "no_center_code": "Please set the center code",
+    "store_success": "Stored successful",
+    "book_update": "Book list updated"
+  },
+  "/": {
+    "start": "Please press the screen\nto start ordering",
+    "daily_book": "Daily Good Book",
+    "disclaimer": "Disclaimer: The book recommendations are for reference only. Please check the book details before borrowing or purchasing.",
+    "camera_topic": "Smile and take a photo",
+    "suggest_book": "recommend book",
+    "take_photo": "Take Photo",
+    "analyze_feature": "Analyze Feature"
+  },
+  "/camera/mirror": {
+    "start": "Please press the screen\nto start ordering",
+    "daily_book": "Daily Good Book",
+    "disclaimer": "Disclaimer: The book recommendations are for reference only. Please check the book details before borrowing or purchasing.",
+    "camera_topic": "Smile and take a photo",
+    "suggest_book": "recommend book",
+    "take_photo": "Take Photo",
+    "analyze_feature": "Analyze Feature"
+  },
+  "/ai/book": {},
+  "/auth/login": {
+    "username": "Username",
+    "password": "Password",
+    "login_topic": "User Login",
+    "login_button": "Login",
+    "forget_password": "Forget Password?"
+  },
+  "/suggestion/book": {
+    "daily_book": "Good books recommended for you today",
+    "book_name": "Book Name",
+    "book_author": "Author",
+    "book_isbn": "International Standard Book Number",
+    "book_intro": "Introduction",
+    "refresh": "Recommend",
+    "dope": "Very good"
+  },
+  "/transition/scan": {
+    "daily_book": "Daily Good Book",
+    "scan": "Scanning"
+  },
+  "/user/setting": {
+    "center_code": "Center Code"
+  },
+  "/test/param": {},
+  "/screen/splash": {
+    "_": "_"
+  }
+}

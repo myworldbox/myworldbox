@@ -1,0 +1,19 @@
+{
+    "/": {},
+    "/auth/login": {},
+    "/auth/register": {},
+    "/auth/verification": {},
+    "/auth/forget_password": {},
+    "/auth/reset_password": {},
+    "/user/setting": {},
+    "/user/update_auth": {},
+    "/user/update_user": {},
+    "/menu/login": {},
+    "/menu/order": {},
+    "/menu/food": {},
+    "/order/rule": {},
+    "/payment/cash": {},
+    "/table/order": {},
+    "/test/param": {},
+    "/scan/camera": {}
+}
