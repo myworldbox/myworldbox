@@ -1,0 +1,35 @@
+{
+    "name": "myworldbox",
+    "short_name": "myworldbox",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "myworldbox.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "assets/assets/png/mwb_favicon_1.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/assets/png/mwb_favicon_1.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/assets/png/mwb_favicon_1.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "assets/assets/png/mwb_favicon_1.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

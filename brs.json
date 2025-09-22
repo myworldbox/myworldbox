@@ -1,0 +1,35 @@
+{
+    "name": "book recommendation system",
+    "short_name": "book recommendation system",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "book recommendation system.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "assets/assets/png/brs_mirror.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/assets/png/brs_mirror.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/assets/png/brs_mirror.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "assets/assets/png/brs_mirror.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

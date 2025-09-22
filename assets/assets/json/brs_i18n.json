@@ -1,0 +1,24 @@
+{
+    "/": {
+        "topic": "Magic Mirror"
+    },
+    "/auth/login": {},
+    "/auth/register": {},
+    "/auth/verification": {},
+    "/auth/forget_password": {},
+    "/auth/reset_password": {},
+    "/user/setting": {},
+    "/user/update_auth": {},
+    "/user/update_user": {},
+    "/menu/login": {},
+    "/menu/order": {},
+    "/menu/food": {},
+    "/order/rule": {},
+    "/payment/cash": {},
+    "/table/order": {},
+    "/transition/outline": {
+        "outline": "HELLO 小朋友，\n歡迎你嚟到魔法世界！\n等陣會有塊神奇嘅魔法鏡出現，\n大家記得要望住魔法鏡做表情啦！"
+    },
+    "/test/param": {},
+    "/scan/camera": {}
+}

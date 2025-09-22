@@ -1,0 +1,12 @@
+{
+    "/": {},
+    "/auth/login": {},
+    "/menu/login": {},
+    "/menu/order": {},
+    "/menu/food": {},
+    "/order/rule": {},
+    "/payment/cash": {},
+    "/table/order": {},
+    "/test/param": {},
+    "/scan/camera": {}
+}
